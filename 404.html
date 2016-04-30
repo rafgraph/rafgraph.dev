@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>404</title>
+  </head>
+  <body>
+    <h1>404</h1>
+    <h3>Page not found</h3>
+    <div>This url is not valid:</div>
+    <div id="url"></div>
+    <div>Reidrecting to:</div>
+    <a href="http://www.rafrex.com">www.rafrex.com</a>
+
+    <script type="text/javascript">
+      var url = document.getElementById('url');
+      url.textContent = window.location.href;
+      
+      setTimeout(function() {
+        window.location.replace('http://www.rafrex.com');
+      }, 10000)
+    </script>
+  </body>
+</html>
