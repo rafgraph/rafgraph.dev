@@ -7,7 +7,7 @@
   <body>
     <h1>404</h1>
     <h3>Page not found</h3>
-    <div>This url is not valid:</div>
+    <div>Invalid url:</div>
     <div id="url"></div>
     <div>Reidrecting to:</div>
     <a href="http://www.rafrex.com">www.rafrex.com</a>
@@ -15,7 +15,7 @@
     <script type="text/javascript">
       var url = document.getElementById('url');
       url.textContent = window.location.href;
-      
+
       setTimeout(function() {
         window.location.replace('http://www.rafrex.com');
       }, 10000)
