@@ -25913,28 +25913,91 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	function App() {
+	var propTypes = {
+	  children: _react.PropTypes.element.isRequired
+	};
+
+	function App(_ref) {
+	  var children = _ref.children;
+
 	  return _react2.default.createElement(
 	    'div',
-	    null,
-	    'react app stub'
+	    {
+	      style: {
+	        height: '100%',
+	        fontFamily: 'helvetica neue, helvetica, sans-serif',
+	        fontWeight: '300',
+	        fontSize: '16px',
+	        letterSpacing: '0.025em'
+	      }
+	    },
+	    children
 	  );
 	}
+
+	App.propTypes = propTypes;
 
 	exports.default = App;
 
 /***/ },
 /* 230 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRouter = __webpack_require__(168);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 	function Home() {
-	  return null;
+	  return _react2.default.createElement(
+	    'nav',
+	    { style: { height: '100%', fontSize: '15vmin', letterSpacing: '0.025em' } },
+	    _react2.default.createElement(
+	      _reactRouter.Link,
+	      {
+	        to: '/code',
+	        style: {
+	          display: 'flex', justifyContent: 'center', alignItems: 'center',
+	          height: '33%',
+	          backgroundColor: '#E0E0E0'
+	        }
+	      },
+	      'Code'
+	    ),
+	    _react2.default.createElement(
+	      _reactRouter.Link,
+	      {
+	        to: '/',
+	        style: {
+	          display: 'flex', justifyContent: 'center', alignItems: 'center',
+	          height: '33%',
+	          backgroundColor: '#D0D0D0'
+	        }
+	      },
+	      'Photography'
+	    ),
+	    _react2.default.createElement(
+	      _reactRouter.Link,
+	      {
+	        to: '/contact',
+	        style: {
+	          display: 'flex', justifyContent: 'center', alignItems: 'center',
+	          height: '34%',
+	          backgroundColor: '#C0C0C0'
+	        }
+	      },
+	      'Contact'
+	    )
+	  );
 	}
 
 	exports.default = Home;
