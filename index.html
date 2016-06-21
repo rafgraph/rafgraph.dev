@@ -1,17 +1,48 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>rafrex</title>
-  <meta charset="UTF-8">
-  <link type="text/css" rel="stylesheet" href="rafrex.css">
-</head>
-<body>
-<nav>
-	<!-- <a href="./code"><div class="nav" id="code">Code </div></a> -->
-  <a href="http://rafrex.github.io/fractal"><div class="nav" id="code">Code </div></a>
-	<a href="photo"><div id="photo">Photography</div></a>
-	<a href="mailto:code@rafrex.com"><div id="contact">Contact</div></a>
-</nav>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rafael Pedicini</title>
 
+    <!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+
+      /////////////////////////////////////////////////////////////////////////
+      // Single Page Apps for GitHub Pages
+      // https://github.com/rafrex/spa-github-pages
+      // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT license
+      // ----------------------------------------------------------------------
+      // This script checks to see if a redirect is present in the query string
+      // and converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      /////////////////////////////////////////////////////////////////////////
+
+      (function(l) {
+        if (l.search) {
+          var q = {};
+          l.search.slice(1).split('&').forEach(function(v) {
+            var a = v.split('=');
+            q[a[0]] = a.slice(1).join('=').replace(/%2F/g, '/').replace(/%26/g, '&');
+          });
+          if (q.redirect === 'true') {
+            window.history.replaceState(null, null,
+              (q.pathname || '') +
+              (q.query || '') +
+              l.hash
+            );
+          }
+        }
+      }(window.location))
+    </script>
+    <!-- End Single Page Apps for GitHub Pages -->
+
+  </head>
+  <body>
+    <div>hello world!</div>
+  </body>
 </html>

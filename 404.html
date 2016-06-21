@@ -2,23 +2,34 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>404</title>
+    <title>Rafael Pedicini</title>
+    <script type="text/javascript">
+
+      /////////////////////////////////////////////////////////////////////////
+      // Single Page Apps for GitHub Pages
+      // https://github.com/rafrex/spa-github-pages
+      // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT license
+      // ----------------------------------------------------------------------
+      // This script takes the current url and converts the path and query
+      // string into just a query string, and then redirects the browser
+      // to the new url with only a query string and hash fragment,
+      // e.g. http://www.foo.tld/one/two?a=b&c=d#qwe, becomes
+      // http://www.foo.tld/?redirect=true&pathname=%2Fone%2Ftwo&query=a=b%26c=d#qwe
+      // Note: this 404.html file must be at least 512 bytes for it to work
+      // with Internet Explorer (it is currently > 512 bytes)
+      /////////////////////////////////////////////////////////////////////////
+
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        '/?' + 'redirect=true' +
+        (l.pathname ? '&pathname=' + l.pathname.replace(/\//g, '%2F').replace(/&/g, '%26') : '') +
+        (l.search ? '&query=' + l.search.replace(/\//g, '%2F').replace(/&/g, '%26') : '') +
+        l.hash
+      );
+
+    </script>
   </head>
   <body>
-    <h1>404</h1>
-    <h3>Page not found</h3>
-    <div>Invalid url:</div>
-    <div id="url"></div>
-    <div>Reidrecting to:</div>
-    <a href="http://www.rafrex.com">www.rafrex.com</a>
-
-    <script type="text/javascript">
-      var url = document.getElementById('url');
-      url.textContent = window.location.href;
-
-      setTimeout(function() {
-        window.location.replace('http://www.rafrex.com');
-      }, 10000)
-    </script>
   </body>
 </html>
