@@ -26,3 +26,34 @@ body {
 html, body, #root {
   height: 100%;
 }
+
+/*links, note !important required to overide react inline styles*/
+a {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+a:hover, a:active {
+  color: rgb(0, 144, 0);
+  background-color: #404040 !important;
+}
+
+.current-input-touch a:hover {
+  color: inherit;
+}
+
+.current-input-touch #code:hover {
+  background-color: #E0E0E0 !important;
+}
+
+.current-input-touch #photography:hover {
+  background-color: #D0D0D0 !important;
+}
+
+.current-input-touch #contact:hover {
+  background-color: #C0C0C0 !important;
+}
+
+.current-input-touch a:active {
+  color: rgb(0, 168, 0);
+}

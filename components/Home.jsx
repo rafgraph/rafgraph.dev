@@ -5,7 +5,7 @@ function Home() {
   return (
     <nav style={{ height: '100%', fontSize: '15vmin', letterSpacing: '0.025em' }}>
       <Link
-        to="/code"
+        to="/code" id="code"
         style={{
           display: 'flex', justifyContent: 'center', alignItems: 'center',
           height: '33%',
@@ -15,7 +15,7 @@ function Home() {
         Code
       </Link>
       <Link
-        to="/"
+        to="/" id="photography"
         style={{
           display: 'flex', justifyContent: 'center', alignItems: 'center',
           height: '33%',
@@ -25,7 +25,7 @@ function Home() {
         Photography
       </Link>
       <Link
-        to="/contact"
+        to="/contact" id="contact"
         style={{
           display: 'flex', justifyContent: 'center', alignItems: 'center',
           height: '34%',
