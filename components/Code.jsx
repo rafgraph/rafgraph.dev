@@ -47,7 +47,7 @@ function Code() {
           padding: '2px 0 3px 0',
         }}
       >
-        <Link to="/" style={{ marginBottom: '5vh' }}>close</Link>
+        <Link to="/" style={{ width: '100%', display: 'block' }}>close</Link>
       </footer>
     </div>
   );

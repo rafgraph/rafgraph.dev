@@ -26992,7 +26992,7 @@
 	      },
 	      _react2.default.createElement(
 	        _reactRouter.Link,
-	        { to: '/', style: { marginBottom: '5vh' } },
+	        { to: '/', style: { width: '100%', display: 'block' } },
 	        'close'
 	      )
 	    )
