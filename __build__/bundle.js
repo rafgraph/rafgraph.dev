@@ -26761,6 +26761,7 @@
 	      style: {
 	        height: '100%',
 	        fontFamily: 'helvetica neue, helvetica, sans-serif',
+	        backgroundColor: '#F0F0F0',
 	        fontWeight: '300',
 	        fontSize: '16px',
 	        letterSpacing: '0.025em'
@@ -26845,16 +26846,152 @@
 /*!*****************************!*\
   !*** ./components/Code.jsx ***!
   \*****************************/
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRouter = __webpack_require__(/*! react-router */ 168);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
 	function Code() {
-	  return null;
+	  return _react2.default.createElement(
+	    'div',
+	    { style: { height: '100%', backgroundColor: 'inherit' } },
+	    _react2.default.createElement(
+	      'div',
+	      {
+	        style: {
+	          minHeight: '100%',
+	          backgroundColor: 'inherit',
+	          display: 'flex',
+	          flexDirection: 'column',
+	          alignItems: 'center',
+	          justifyContent: 'center'
+	        }
+	      },
+	      _react2.default.createElement(
+	        'div',
+	        { style: { margin: '5vh 5vw 15vh 5vw' } },
+	        _react2.default.createElement(
+	          'h1',
+	          { style: { fontSize: '32px' } },
+	          'Code'
+	        ),
+	        _react2.default.createElement(
+	          'ul',
+	          null,
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Project foobar'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Project foobar'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Project foobar'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Project foobar'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Project foobar'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Project foobar'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Project foobar'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Project foobar'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Project foobar'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Project foobar'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Project foobar'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Project foobar'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Project foobar'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Project foobar'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Project foobar'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Project foobar'
+	          )
+	        )
+	      )
+	    ),
+	    _react2.default.createElement(
+	      'footer',
+	      {
+	        style: {
+	          position: 'fixed',
+	          bottom: '0',
+	          width: '100%',
+	          backgroundColor: 'inherit',
+	          textAlign: 'center',
+	          fontSize: '18px',
+	          padding: '2px 0 3px 0'
+	        }
+	      },
+	      _react2.default.createElement(
+	        _reactRouter.Link,
+	        { to: '/', style: { marginBottom: '5vh' } },
+	        'close'
+	      )
+	    )
+	  );
 	}
 	
 	exports.default = Code;
