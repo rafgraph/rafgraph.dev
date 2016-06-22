@@ -28,7 +28,7 @@ html, body, #root {
   height: 100%;
 }
 
-/*links, note !important required to overide react inline styles*/
+/*links*/
 a {
   border-bottom: 1px dotted rgb(0, 168, 0);
   -ms-touch-action: manipulation;
@@ -47,10 +47,11 @@ a:hover, a:active {
   border-bottom: 1px dashed rgb(0, 168, 0);
 }
 
-/*home page nav links*/
+/*home page nav links, note !important required to overide react inline styles*/
 nav a:hover, nav a:active {
   color: rgb(0, 168, 0);
   background-color: #404040 !important;
+  border: none;
 }
 
 nav a {
