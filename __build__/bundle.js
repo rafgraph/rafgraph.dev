@@ -26892,7 +26892,12 @@
 	          _react2.default.createElement(
 	            'li',
 	            null,
-	            'Project foobar'
+	            'Project foobar - ',
+	            _react2.default.createElement(
+	              _reactRouter.Link,
+	              { to: '/' },
+	              'link'
+	            )
 	          ),
 	          _react2.default.createElement(
 	            'li',

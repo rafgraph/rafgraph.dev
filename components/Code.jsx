@@ -17,7 +17,7 @@ function Code() {
         <div style={{ margin: '5vh 5vw 15vh 5vw' }}>
           <h1 style={{ fontSize: '32px' }}>Code</h1>
           <ul>
-            <li>Project foobar</li>
+            <li>Project foobar - <Link to="/">link</Link></li>
             <li>Project foobar</li>
             <li>Project foobar</li>
             <li>Project foobar</li>
