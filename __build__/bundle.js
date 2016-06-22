@@ -26860,6 +26860,10 @@
 	
 	var _reactRouter = __webpack_require__(/*! react-router */ 168);
 	
+	var _Footer = __webpack_require__(/*! ./Footer */ 234);
+	
+	var _Footer2 = _interopRequireDefault(_Footer);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function Code() {
@@ -26977,25 +26981,7 @@
 	        )
 	      )
 	    ),
-	    _react2.default.createElement(
-	      'footer',
-	      {
-	        style: {
-	          position: 'fixed',
-	          bottom: '0',
-	          width: '100%',
-	          backgroundColor: 'inherit',
-	          textAlign: 'center',
-	          fontSize: '18px',
-	          padding: '2px 0 3px 0'
-	        }
-	      },
-	      _react2.default.createElement(
-	        _reactRouter.Link,
-	        { to: '/', style: { width: '100%', display: 'block' } },
-	        'close'
-	      )
-	    )
+	    _react2.default.createElement(_Footer2.default, null)
 	  );
 	}
 	
@@ -27019,6 +27005,51 @@
 	}
 	
 	exports.default = Contact;
+
+/***/ },
+/* 234 */
+/*!*******************************!*\
+  !*** ./components/Footer.jsx ***!
+  \*******************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRouter = __webpack_require__(/*! react-router */ 168);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function Footer() {
+	  return _react2.default.createElement(
+	    'footer',
+	    {
+	      style: {
+	        position: 'fixed',
+	        bottom: '0',
+	        width: '100%',
+	        backgroundColor: 'inherit',
+	        textAlign: 'center',
+	        fontSize: '18px',
+	        padding: '2px 0 3px 0'
+	      }
+	    },
+	    _react2.default.createElement(
+	      _reactRouter.Link,
+	      { to: '/', style: { width: '100%', display: 'block' } },
+	      'close'
+	    )
+	  );
+	}
+	
+	exports.default = Footer;
 
 /***/ }
 /******/ ]);
