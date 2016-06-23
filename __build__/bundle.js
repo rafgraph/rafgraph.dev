@@ -26992,16 +26992,132 @@
 /*!********************************!*\
   !*** ./components/Contact.jsx ***!
   \********************************/
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _Footer = __webpack_require__(/*! ./Footer */ 234);
+	
+	var _Footer2 = _interopRequireDefault(_Footer);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
 	function Contact() {
-	  return null;
+	  return _react2.default.createElement(
+	    'div',
+	    { style: { height: '100%', backgroundColor: 'inherit' } },
+	    _react2.default.createElement(
+	      'div',
+	      {
+	        style: {
+	          minHeight: '100%',
+	          backgroundColor: 'inherit',
+	          display: 'flex',
+	          alignItems: 'center',
+	          justifyContent: 'center'
+	        }
+	      },
+	      _react2.default.createElement(
+	        'div',
+	        {
+	          style: {
+	            display: 'flex',
+	            flexDirection: 'column',
+	            margin: '25px 3vw 50px 3vw'
+	          }
+	        },
+	        _react2.default.createElement('img', {
+	          style: { width: '280px', height: '280px', borderRadius: '7px' },
+	          src: '/imgs/rafael_pedicini-280.jpg',
+	          srcSet: '/imgs/rafael_pedicini-560.jpg 2x',
+	          alt: 'Rafael Pedicini'
+	        }),
+	        _react2.default.createElement(
+	          'div',
+	          { style: { margin: '7px 0 0 2px' } },
+	          _react2.default.createElement(
+	            'h1',
+	            { style: { fontSize: '24px' } },
+	            'Rafael Pedicini'
+	          ),
+	          _react2.default.createElement(
+	            'ul',
+	            null,
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              'San Francisco, CA'
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              '(857) 498 - 0011'
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'mailto:rafael@rafrex.com' },
+	                'rafael@rafrex.com'
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://github.com/rafrex', target: '_blank' },
+	                'GitHub'
+	              ),
+	              ' ',
+	              ' - ',
+	              ' ',
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://www.linkedin.com/in/rpedicini', target: '_blank' },
+	                'LinkedIn'
+	              ),
+	              ' ',
+	              ' - ',
+	              ' ',
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://twitter.com/rafrrex', target: '_blank' },
+	                'Twitter'
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://www.facebook.com/rpedicini', target: '_blank' },
+	                'Facebook'
+	              ),
+	              ' ',
+	              ' - ',
+	              ' ',
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://www.instagram.com/rafrex/', target: '_blank' },
+	                'Instagram'
+	              )
+	            )
+	          )
+	        )
+	      )
+	    ),
+	    _react2.default.createElement(_Footer2.default, null)
+	  );
 	}
 	
 	exports.default = Contact;
@@ -27033,7 +27149,7 @@
 	    {
 	      style: {
 	        position: 'fixed',
-	        bottom: '0',
+	        bottom: 0,
 	        width: '100%',
 	        backgroundColor: 'inherit',
 	        textAlign: 'center',

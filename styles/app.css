@@ -90,9 +90,13 @@ footer a:hover, footer a:active {
   border: none;
 }
 
-.current-input-touch footer a:hover,
-.current-input-touch footer a:active {
+.current-input-touch footer a:hover {
   color: inherit;
+  border: none;
+}
+
+.current-input-touch footer a:active {
+  color: rgb(0, 168, 0);
   border: none;
 }
 
@@ -102,10 +106,10 @@ li {
   list-style: none;
   padding-left: 18px;
   text-indent: -15px;
-  margin: 0.5vh 0;
+  margin: 5px 0;
 }
 
 li:before {
   content: "\2013";
-  padding-right: 7px;
+  padding-right: 10px;
 }
