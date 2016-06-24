@@ -46,7 +46,7 @@ export const fractal = {
       link: 'https://github.com/rafrex/fractal',
     },
   ],
-  notes: 'js web app, zero libraies, responsive, mobile',
+  notes: 'js web app, zero libraries, responsive, mobile',
 };
 
 export const reactRouterHashLinkScroll = {
