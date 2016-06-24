@@ -13,6 +13,7 @@ const routes = (
     <IndexRoute component={Home} />
     <Route path="code" component={Code} />
     <Route path="contact" component={Contact} />
+    <Route path="*" onEnter={(nextState, replace) => replace({ pathname: '/' })} />
   </Route>
 );
 
