@@ -71,7 +71,7 @@
 	
 	var _Code2 = _interopRequireDefault(_Code);
 	
-	var _Contact = __webpack_require__(/*! ./components/Contact */ 240);
+	var _Contact = __webpack_require__(/*! ./components/Contact */ 242);
 	
 	var _Contact2 = _interopRequireDefault(_Contact);
 	
@@ -27735,11 +27735,11 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _Footer = __webpack_require__(/*! ./Footer */ 241);
+	var _Footer = __webpack_require__(/*! ./Footer */ 240);
 	
 	var _Footer2 = _interopRequireDefault(_Footer);
 	
-	var _codeProjects = __webpack_require__(/*! ../content/codeProjects */ 242);
+	var _codeProjects = __webpack_require__(/*! ../content/codeProjects */ 241);
 	
 	var codeProjects = _interopRequireWildcard(_codeProjects);
 	
@@ -27814,6 +27814,201 @@
 
 /***/ },
 /* 240 */
+/*!*******************************!*\
+  !*** ./components/Footer.jsx ***!
+  \*******************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRouter = __webpack_require__(/*! react-router */ 168);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function Footer() {
+	  return _react2.default.createElement(
+	    'footer',
+	    {
+	      style: {
+	        position: 'fixed',
+	        bottom: 0,
+	        width: '100%',
+	        backgroundColor: 'inherit',
+	        textAlign: 'center',
+	        fontSize: '18px',
+	        padding: '2px 0 3px 0'
+	      }
+	    },
+	    _react2.default.createElement(
+	      _reactRouter.Link,
+	      { to: '/', style: { width: '100%', display: 'block' } },
+	      'close'
+	    )
+	  );
+	}
+	
+	exports.default = Footer;
+
+/***/ },
+/* 241 */
+/*!*********************************!*\
+  !*** ./content/codeProjects.js ***!
+  \*********************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.example = exports.reactGithubPages = exports.fluxDispatcher = exports.mySite = exports.grams = exports.favicon = exports.fourCornerLayout = exports.detectTouch = exports.reactRouterHashLinkScroll = exports.fractal = exports.spaGithubPages = exports.myGithub = exports.projectList = undefined;
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var projectList = exports.projectList = ['myGithub', 'spaGithubPages', 'fractal', 'fourCornerLayout', 'detectTouch', 'reactRouterHashLinkScroll', 'fluxDispatcher', 'mySite', 'reactGithubPages', 'favicon', 'grams'];
+	
+	var myGithub = exports.myGithub = {
+	  project: [{
+	    title: 'https://github.com/rafrex',
+	    link: 'https://github.com/rafrex'
+	  }],
+	  notes: 'my github, js, react, responsive, mobile'
+	};
+	
+	var spaGithubPages = exports.spaGithubPages = {
+	  project: [{
+	    title: 'Single page apps for github pages',
+	    link: 'https://github.com/rafrex/spa-github-pages'
+	  }],
+	  notes: 'js, utility to host spas with gh-pages'
+	};
+	
+	var fractal = exports.fractal = {
+	  project: [{
+	    title: 'Fractal generator',
+	    link: 'http://fractal.rafrex.com'
+	  }, {
+	    title: 'github',
+	    link: 'https://github.com/rafrex/fractal'
+	  }],
+	  notes: 'js web app, zero libraies, responsive, mobile'
+	};
+	
+	var reactRouterHashLinkScroll = exports.reactRouterHashLinkScroll = {
+	  project: [{
+	    title: 'React router hash link scroll',
+	    link: 'https://github.com/rafrex/react-router-hash-link-scroll'
+	  }],
+	  notes: 'js, react, hash link scroll for react-router'
+	};
+	
+	var detectTouch = exports.detectTouch = {
+	  project: [{
+	    title: 'Detect touch',
+	    link: 'http://detect-touch.rafrex.com'
+	  }, {
+	    title: 'github',
+	    link: 'https://github.com/rafrex/detect-touch'
+	  }, {
+	    title: 'npm',
+	    link: 'https://www.npmjs.com/package/detect-touch'
+	  }],
+	  notes: 'js, mobile, npm package'
+	};
+	
+	var fourCornerLayout = exports.fourCornerLayout = {
+	  project: [{
+	    title: 'Four corner layout',
+	    link: 'http://four-corner-layout.rafrex.com'
+	  }, {
+	    title: 'github',
+	    link: 'https://github.com/rafrex/four-corner-layout'
+	  }],
+	  notes: 'design concept, svg, react, responsive, mobile'
+	};
+	
+	var favicon = exports.favicon = {
+	  project: [{
+	    title: 'Favicon'
+	  }, {
+	    title: 'green grid',
+	    link: 'http://favicon.rafrex.com/green-grid-144-168-192'
+	  }, {
+	    title: 'gray grid',
+	    link: 'http://favicon.rafrex.com/gray-grid-104-128-160'
+	  }, {
+	    title: 'green light',
+	    link: 'http://favicon.rafrex.com/green-light-168'
+	  }],
+	  notes: 'gh-pages favicon server'
+	};
+	
+	var grams = exports.grams = {
+	  project: [{
+	    title: 'Grams',
+	    link: 'https://github.com/rafrex/grams'
+	  }],
+	  notes: 'rails mvc'
+	};
+	
+	var mySite = exports.mySite = {
+	  project: [{
+	    title: 'My website',
+	    link: 'http://rafrex.com'
+	  }],
+	  notes: 'design, js, react, responsive, mobile'
+	};
+	
+	var fluxDispatcher = exports.fluxDispatcher = {
+	  project: [{
+	    title: 'Async flux dispatcher',
+	    link: 'https://github.com/rafrex/flux-async-dispatcher'
+	  }],
+	  notes: 'js, react, flux'
+	};
+	
+	var reactGithubPages = exports.reactGithubPages = {
+	  project: [{
+	    title: 'React github pages',
+	    link: 'https://github.com/rafrex/react-github-pages'
+	  }],
+	  notes: _react2.default.createElement(
+	    'span',
+	    null,
+	    'js, react, predecessor to ',
+	    _react2.default.createElement(
+	      'a',
+	      { href: 'https://github.com/rafrex/spa-github-pages', target: '_blank' },
+	      'spa-github-pages'
+	    )
+	  )
+	};
+	
+	var example = exports.example = {
+	  project: [{
+	    title: '',
+	    link: ''
+	  }, {
+	    title: '',
+	    link: ''
+	  }],
+	  notes: ''
+	};
+
+/***/ },
+/* 242 */
 /*!********************************!*\
   !*** ./components/Contact.jsx ***!
   \********************************/
@@ -27829,7 +28024,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _Footer = __webpack_require__(/*! ./Footer */ 241);
+	var _Footer = __webpack_require__(/*! ./Footer */ 240);
 	
 	var _Footer2 = _interopRequireDefault(_Footer);
 	
@@ -27946,201 +28141,6 @@
 	}
 	
 	exports.default = Contact;
-
-/***/ },
-/* 241 */
-/*!*******************************!*\
-  !*** ./components/Footer.jsx ***!
-  \*******************************/
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _react = __webpack_require__(/*! react */ 1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _reactRouter = __webpack_require__(/*! react-router */ 168);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function Footer() {
-	  return _react2.default.createElement(
-	    'footer',
-	    {
-	      style: {
-	        position: 'fixed',
-	        bottom: 0,
-	        width: '100%',
-	        backgroundColor: 'inherit',
-	        textAlign: 'center',
-	        fontSize: '18px',
-	        padding: '2px 0 3px 0'
-	      }
-	    },
-	    _react2.default.createElement(
-	      _reactRouter.Link,
-	      { to: '/', style: { width: '100%', display: 'block' } },
-	      'close'
-	    )
-	  );
-	}
-	
-	exports.default = Footer;
-
-/***/ },
-/* 242 */
-/*!*********************************!*\
-  !*** ./content/codeProjects.js ***!
-  \*********************************/
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.example = exports.reactGithubPages = exports.fluxDispatcher = exports.mySite = exports.grams = exports.favicon = exports.fourCornerLayout = exports.detectTouch = exports.reactRouterHashLinkScroll = exports.fractal = exports.spaGithubPages = exports.myGithub = exports.projectList = undefined;
-	
-	var _react = __webpack_require__(/*! react */ 1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	var projectList = exports.projectList = ['myGithub', 'spaGithubPages', 'fractal', 'fourCornerLayout', 'detectTouch', 'reactRouterHashLinkScroll', 'fluxDispatcher', 'mySite', 'reactGithubPages', 'favicon', 'grams'];
-	
-	var myGithub = exports.myGithub = {
-	  project: [{
-	    title: 'https://github.com/rafrex',
-	    link: 'https://github.com/rafrex'
-	  }],
-	  notes: 'my github, js, react, responsive, mobile'
-	};
-	
-	var spaGithubPages = exports.spaGithubPages = {
-	  project: [{
-	    title: 'Single page apps for github pages',
-	    link: 'https://github.com/rafrex/spa-github-pages'
-	  }],
-	  notes: 'js, utility to host spas with gh-pages'
-	};
-	
-	var fractal = exports.fractal = {
-	  project: [{
-	    title: 'Fractal generator',
-	    link: 'http://fractal.rafrex.com'
-	  }, {
-	    title: 'github',
-	    link: 'https://github.com/rafrex/fractal'
-	  }],
-	  notes: 'js web app, zero libraies, responsive, mobile'
-	};
-	
-	var reactRouterHashLinkScroll = exports.reactRouterHashLinkScroll = {
-	  project: [{
-	    title: 'React router hash link scroll',
-	    link: 'https://github.com/rafrex/react-router-hash-link-scroll'
-	  }],
-	  notes: 'js, react, hash link scroll for react-router'
-	};
-	
-	var detectTouch = exports.detectTouch = {
-	  project: [{
-	    title: 'Detect touch',
-	    link: 'http://detect-touch.rafrex.com'
-	  }, {
-	    title: 'github',
-	    link: 'https://github.com/rafrex/detect-touch'
-	  }, {
-	    title: 'npm',
-	    link: 'https://www.npmjs.com/package/detect-touch'
-	  }],
-	  notes: 'js, mobile, npm package'
-	};
-	
-	var fourCornerLayout = exports.fourCornerLayout = {
-	  project: [{
-	    title: 'Four corner layout',
-	    link: 'http://four-corner-layout.rafrex.com'
-	  }, {
-	    title: 'github',
-	    link: 'https://github.com/rafrex/four-corner-layout'
-	  }],
-	  notes: 'design concept, svg, react, responsive, mobile'
-	};
-	
-	var favicon = exports.favicon = {
-	  project: [{
-	    title: 'Favicon'
-	  }, {
-	    title: 'green grid',
-	    link: 'http://favicon.rafrex.com/green-grid-144-168-192'
-	  }, {
-	    title: 'gray grid',
-	    link: 'http://favicon.rafrex.com/gray-grid-104-128-160'
-	  }, {
-	    title: 'green light',
-	    link: 'http://favicon.rafrex.com/green-light-168'
-	  }],
-	  notes: 'gh-pages favicon server'
-	};
-	
-	var grams = exports.grams = {
-	  project: [{
-	    title: 'Grams',
-	    link: 'https://github.com/rafrex/grams'
-	  }],
-	  notes: 'rails mvc'
-	};
-	
-	var mySite = exports.mySite = {
-	  project: [{
-	    title: 'This site on github',
-	    link: 'https://github.com/rafrex/rafrex.github.io'
-	  }],
-	  notes: 'design, js, react, responsive, mobile'
-	};
-	
-	var fluxDispatcher = exports.fluxDispatcher = {
-	  project: [{
-	    title: 'Async flux dispatcher',
-	    link: 'https://github.com/rafrex/flux-async-dispatcher'
-	  }],
-	  notes: 'js, react, flux'
-	};
-	
-	var reactGithubPages = exports.reactGithubPages = {
-	  project: [{
-	    title: 'React github pages',
-	    link: 'https://github.com/rafrex/react-github-pages'
-	  }],
-	  notes: _react2.default.createElement(
-	    'span',
-	    null,
-	    'js, react, predecessor to ',
-	    _react2.default.createElement(
-	      'a',
-	      { href: 'https://github.com/rafrex/spa-github-pages', target: '_blank' },
-	      'spa-github-pages'
-	    )
-	  )
-	};
-	
-	var example = exports.example = {
-	  project: [{
-	    title: '',
-	    link: ''
-	  }, {
-	    title: '',
-	    link: ''
-	  }],
-	  notes: ''
-	};
 
 /***/ }
 /******/ ]);

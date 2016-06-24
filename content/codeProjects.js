@@ -125,8 +125,8 @@ export const grams = {
 export const mySite = {
   project: [
     {
-      title: 'This site on github',
-      link: 'https://github.com/rafrex/rafrex.github.io',
+      title: 'My website',
+      link: 'http://rafrex.com',
     },
   ],
   notes: 'design, js, react, responsive, mobile',
