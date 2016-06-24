@@ -26832,7 +26832,7 @@
 	        this.setState({ photoText: 'Coming Soon...' }, function () {
 	          return setTimeout(function () {
 	            _this2.setState({ photoText: 'Photography' });
-	          }, 2000);
+	          }, 1700);
 	        });
 	      }
 	    }

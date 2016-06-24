@@ -17,7 +17,7 @@ class Home extends React.Component {
         { photoText: 'Coming Soon...' },
         () => (setTimeout(() => {
           this.setState({ photoText: 'Photography' });
-        }, 2000))
+        }, 1700))
       );
     }
   }
