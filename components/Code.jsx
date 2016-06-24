@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router';
 import Footer from './Footer';
+import * as codeProjects from '../content/codeProjects';
 
 function Code() {
   return (
@@ -15,26 +15,31 @@ function Code() {
           justifyContent: 'center',
         }}
       >
-        <div style={{ margin: '5vh 5vw 15vh 5vw' }}>
+        <div style={{ maxWidth: '600px', margin: '5vh 5vw 15vh 5vw' }}>
+
           <h1 style={{ fontSize: '32px' }}>Code</h1>
-          <ul>
-            <li>Project foobar - <Link to="/">link</Link></li>
-            <li>Project foobar</li>
-            <li>Project foobar</li>
-            <li>Project foobar</li>
-            <li>Project foobar</li>
-            <li>Project foobar</li>
-            <li>Project foobar</li>
-            <li>Project foobar</li>
-            <li>Project foobar</li>
-            <li>Project foobar</li>
-            <li>Project foobar</li>
-            <li>Project foobar</li>
-            <li>Project foobar</li>
-            <li>Project foobar</li>
-            <li>Project foobar</li>
-            <li>Project foobar</li>
+
+          <ul className="code-list">
+            {codeProjects.projectList.map((proj, idx1) => (
+
+              <li key={idx1}>
+                {codeProjects[proj].project.map((item, idx2, array) => (
+                  <span key={idx2}>
+                    {item.link ?
+                      <a href={item.link} target="_blank">{item.title}</a> :
+                      item.title
+                    }
+                    {(idx2 + 1) < array.length && <span> &nbsp;&ndash;&nbsp; </span>}
+                  </span>
+                ))}
+                <span style={{ color: '#A0A0A0' }}>
+                  {' '}&nbsp;...&nbsp; {codeProjects[proj].notes}
+                </span>
+              </li>
+
+            ))}
           </ul>
+
         </div>
       </div>
       <Footer />

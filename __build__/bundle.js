@@ -67,11 +67,11 @@
 	
 	var _Home2 = _interopRequireDefault(_Home);
 	
-	var _Code = __webpack_require__(/*! ./components/Code */ 232);
+	var _Code = __webpack_require__(/*! ./components/Code */ 239);
 	
 	var _Code2 = _interopRequireDefault(_Code);
 	
-	var _Contact = __webpack_require__(/*! ./components/Contact */ 234);
+	var _Contact = __webpack_require__(/*! ./components/Contact */ 240);
 	
 	var _Contact2 = _interopRequireDefault(_Contact);
 	
@@ -26796,7 +26796,7 @@
 	
 	var _reactRouter = __webpack_require__(/*! react-router */ 168);
 	
-	var _reactAddonsCssTransitionGroup = __webpack_require__(/*! react-addons-css-transition-group */ 235);
+	var _reactAddonsCssTransitionGroup = __webpack_require__(/*! react-addons-css-transition-group */ 232);
 	
 	var _reactAddonsCssTransitionGroup2 = _interopRequireDefault(_reactAddonsCssTransitionGroup);
 	
@@ -26913,341 +26913,15 @@
 
 /***/ },
 /* 232 */
-/*!*****************************!*\
-  !*** ./components/Code.jsx ***!
-  \*****************************/
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _react = __webpack_require__(/*! react */ 1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _reactRouter = __webpack_require__(/*! react-router */ 168);
-	
-	var _Footer = __webpack_require__(/*! ./Footer */ 233);
-	
-	var _Footer2 = _interopRequireDefault(_Footer);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function Code() {
-	  return _react2.default.createElement(
-	    'div',
-	    { style: { height: '100%', backgroundColor: 'inherit' } },
-	    _react2.default.createElement(
-	      'div',
-	      {
-	        style: {
-	          minHeight: '100%',
-	          backgroundColor: 'inherit',
-	          display: 'flex',
-	          flexDirection: 'column',
-	          alignItems: 'center',
-	          justifyContent: 'center'
-	        }
-	      },
-	      _react2.default.createElement(
-	        'div',
-	        { style: { margin: '5vh 5vw 15vh 5vw' } },
-	        _react2.default.createElement(
-	          'h1',
-	          { style: { fontSize: '32px' } },
-	          'Code'
-	        ),
-	        _react2.default.createElement(
-	          'ul',
-	          null,
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Project foobar - ',
-	            _react2.default.createElement(
-	              _reactRouter.Link,
-	              { to: '/' },
-	              'link'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Project foobar'
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Project foobar'
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Project foobar'
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Project foobar'
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Project foobar'
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Project foobar'
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Project foobar'
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Project foobar'
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Project foobar'
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Project foobar'
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Project foobar'
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Project foobar'
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Project foobar'
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Project foobar'
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Project foobar'
-	          )
-	        )
-	      )
-	    ),
-	    _react2.default.createElement(_Footer2.default, null)
-	  );
-	}
-	
-	exports.default = Code;
-
-/***/ },
-/* 233 */
-/*!*******************************!*\
-  !*** ./components/Footer.jsx ***!
-  \*******************************/
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _react = __webpack_require__(/*! react */ 1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _reactRouter = __webpack_require__(/*! react-router */ 168);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function Footer() {
-	  return _react2.default.createElement(
-	    'footer',
-	    {
-	      style: {
-	        position: 'fixed',
-	        bottom: 0,
-	        width: '100%',
-	        backgroundColor: 'inherit',
-	        textAlign: 'center',
-	        fontSize: '18px',
-	        padding: '2px 0 3px 0'
-	      }
-	    },
-	    _react2.default.createElement(
-	      _reactRouter.Link,
-	      { to: '/', style: { width: '100%', display: 'block' } },
-	      'close'
-	    )
-	  );
-	}
-	
-	exports.default = Footer;
-
-/***/ },
-/* 234 */
-/*!********************************!*\
-  !*** ./components/Contact.jsx ***!
-  \********************************/
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _react = __webpack_require__(/*! react */ 1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _Footer = __webpack_require__(/*! ./Footer */ 233);
-	
-	var _Footer2 = _interopRequireDefault(_Footer);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function Contact() {
-	  return _react2.default.createElement(
-	    'div',
-	    { style: { height: '100%', backgroundColor: 'inherit' } },
-	    _react2.default.createElement(
-	      'div',
-	      {
-	        style: {
-	          minHeight: '100%',
-	          backgroundColor: 'inherit',
-	          display: 'flex',
-	          alignItems: 'center',
-	          justifyContent: 'center'
-	        }
-	      },
-	      _react2.default.createElement(
-	        'div',
-	        {
-	          style: {
-	            display: 'flex',
-	            flexDirection: 'column',
-	            margin: '25px 3vw 50px 3vw'
-	          }
-	        },
-	        _react2.default.createElement('img', {
-	          style: { width: '280px', height: '280px', borderRadius: '7px' },
-	          src: '/imgs/rafael_pedicini-280.jpg',
-	          srcSet: '/imgs/rafael_pedicini-560.jpg 2x',
-	          alt: 'Rafael Pedicini'
-	        }),
-	        _react2.default.createElement(
-	          'div',
-	          { style: { margin: '7px 0 0 2px' } },
-	          _react2.default.createElement(
-	            'h1',
-	            { style: { fontSize: '24px' } },
-	            'Rafael Pedicini'
-	          ),
-	          _react2.default.createElement(
-	            'ul',
-	            null,
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              'San Francisco, CA'
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              '(857) 498 - 0011'
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              _react2.default.createElement(
-	                'a',
-	                { href: 'mailto:rafael@rafrex.com' },
-	                'rafael@rafrex.com'
-	              )
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              _react2.default.createElement(
-	                'a',
-	                { href: 'https://github.com/rafrex', target: '_blank' },
-	                'GitHub'
-	              ),
-	              ' ',
-	              ' - ',
-	              ' ',
-	              _react2.default.createElement(
-	                'a',
-	                { href: 'https://www.linkedin.com/in/rpedicini', target: '_blank' },
-	                'LinkedIn'
-	              ),
-	              ' ',
-	              ' - ',
-	              ' ',
-	              _react2.default.createElement(
-	                'a',
-	                { href: 'https://twitter.com/rafrrex', target: '_blank' },
-	                'Twitter'
-	              )
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              null,
-	              _react2.default.createElement(
-	                'a',
-	                { href: 'https://www.facebook.com/rpedicini', target: '_blank' },
-	                'Facebook'
-	              ),
-	              ' ',
-	              ' - ',
-	              ' ',
-	              _react2.default.createElement(
-	                'a',
-	                { href: 'https://www.instagram.com/rafrex/', target: '_blank' },
-	                'Instagram'
-	              )
-	            )
-	          )
-	        )
-	      )
-	    ),
-	    _react2.default.createElement(_Footer2.default, null)
-	  );
-	}
-	
-	exports.default = Contact;
-
-/***/ },
-/* 235 */
 /*!******************************************************!*\
   !*** ./~/react-addons-css-transition-group/index.js ***!
   \******************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(/*! react/lib/ReactCSSTransitionGroup */ 236);
+	module.exports = __webpack_require__(/*! react/lib/ReactCSSTransitionGroup */ 233);
 
 /***/ },
-/* 236 */
+/* 233 */
 /*!************************************************!*\
   !*** ./~/react/lib/ReactCSSTransitionGroup.js ***!
   \************************************************/
@@ -27270,8 +26944,8 @@
 	
 	var React = __webpack_require__(/*! ./React */ 2);
 	
-	var ReactTransitionGroup = __webpack_require__(/*! ./ReactTransitionGroup */ 237);
-	var ReactCSSTransitionGroupChild = __webpack_require__(/*! ./ReactCSSTransitionGroupChild */ 239);
+	var ReactTransitionGroup = __webpack_require__(/*! ./ReactTransitionGroup */ 234);
+	var ReactCSSTransitionGroupChild = __webpack_require__(/*! ./ReactCSSTransitionGroupChild */ 236);
 	
 	function createTransitionTimeoutPropValidator(transitionType) {
 	  var timeoutPropName = 'transition' + transitionType + 'Timeout';
@@ -27342,7 +27016,7 @@
 	module.exports = ReactCSSTransitionGroup;
 
 /***/ },
-/* 237 */
+/* 234 */
 /*!*********************************************!*\
   !*** ./~/react/lib/ReactTransitionGroup.js ***!
   \*********************************************/
@@ -27364,7 +27038,7 @@
 	var _assign = __webpack_require__(/*! object-assign */ 4);
 	
 	var React = __webpack_require__(/*! ./React */ 2);
-	var ReactTransitionChildMapping = __webpack_require__(/*! ./ReactTransitionChildMapping */ 238);
+	var ReactTransitionChildMapping = __webpack_require__(/*! ./ReactTransitionChildMapping */ 235);
 	
 	var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 11);
 	
@@ -27561,7 +27235,7 @@
 	module.exports = ReactTransitionGroup;
 
 /***/ },
-/* 238 */
+/* 235 */
 /*!****************************************************!*\
   !*** ./~/react/lib/ReactTransitionChildMapping.js ***!
   \****************************************************/
@@ -27666,7 +27340,7 @@
 	module.exports = ReactTransitionChildMapping;
 
 /***/ },
-/* 239 */
+/* 236 */
 /*!*****************************************************!*\
   !*** ./~/react/lib/ReactCSSTransitionGroupChild.js ***!
   \*****************************************************/
@@ -27688,8 +27362,8 @@
 	var React = __webpack_require__(/*! ./React */ 2);
 	var ReactDOM = __webpack_require__(/*! ./ReactDOM */ 39);
 	
-	var CSSCore = __webpack_require__(/*! fbjs/lib/CSSCore */ 240);
-	var ReactTransitionEvents = __webpack_require__(/*! ./ReactTransitionEvents */ 241);
+	var CSSCore = __webpack_require__(/*! fbjs/lib/CSSCore */ 237);
+	var ReactTransitionEvents = __webpack_require__(/*! ./ReactTransitionEvents */ 238);
 	
 	var onlyChild = __webpack_require__(/*! ./onlyChild */ 37);
 	
@@ -27834,7 +27508,7 @@
 	module.exports = ReactCSSTransitionGroupChild;
 
 /***/ },
-/* 240 */
+/* 237 */
 /*!*******************************!*\
   !*** ./~/fbjs/lib/CSSCore.js ***!
   \*******************************/
@@ -27964,7 +27638,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./~/process/browser.js */ 3)))
 
 /***/ },
-/* 241 */
+/* 238 */
 /*!**********************************************!*\
   !*** ./~/react/lib/ReactTransitionEvents.js ***!
   \**********************************************/
@@ -28043,6 +27717,430 @@
 	};
 	
 	module.exports = ReactTransitionEvents;
+
+/***/ },
+/* 239 */
+/*!*****************************!*\
+  !*** ./components/Code.jsx ***!
+  \*****************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _Footer = __webpack_require__(/*! ./Footer */ 241);
+	
+	var _Footer2 = _interopRequireDefault(_Footer);
+	
+	var _codeProjects = __webpack_require__(/*! ../content/codeProjects */ 242);
+	
+	var codeProjects = _interopRequireWildcard(_codeProjects);
+	
+	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function Code() {
+	  return _react2.default.createElement(
+	    'div',
+	    { style: { height: '100%', backgroundColor: 'inherit' } },
+	    _react2.default.createElement(
+	      'div',
+	      {
+	        style: {
+	          minHeight: '100%',
+	          backgroundColor: 'inherit',
+	          display: 'flex',
+	          flexDirection: 'column',
+	          alignItems: 'center',
+	          justifyContent: 'center'
+	        }
+	      },
+	      _react2.default.createElement(
+	        'div',
+	        { style: { maxWidth: '600px', margin: '5vh 5vw 15vh 5vw' } },
+	        _react2.default.createElement(
+	          'h1',
+	          { style: { fontSize: '32px' } },
+	          'Code'
+	        ),
+	        _react2.default.createElement(
+	          'ul',
+	          { className: 'code-list' },
+	          codeProjects.projectList.map(function (proj, idx1) {
+	            return _react2.default.createElement(
+	              'li',
+	              { key: idx1 },
+	              codeProjects[proj].project.map(function (item, idx2, array) {
+	                return _react2.default.createElement(
+	                  'span',
+	                  { key: idx2 },
+	                  item.link ? _react2.default.createElement(
+	                    'a',
+	                    { href: item.link, target: '_blank' },
+	                    item.title
+	                  ) : item.title,
+	                  idx2 + 1 < array.length && _react2.default.createElement(
+	                    'span',
+	                    null,
+	                    '  –  '
+	                  )
+	                );
+	              }),
+	              _react2.default.createElement(
+	                'span',
+	                { style: { color: '#A0A0A0' } },
+	                ' ',
+	                ' ...  ',
+	                codeProjects[proj].notes
+	              )
+	            );
+	          })
+	        )
+	      )
+	    ),
+	    _react2.default.createElement(_Footer2.default, null)
+	  );
+	}
+	
+	exports.default = Code;
+
+/***/ },
+/* 240 */
+/*!********************************!*\
+  !*** ./components/Contact.jsx ***!
+  \********************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _Footer = __webpack_require__(/*! ./Footer */ 241);
+	
+	var _Footer2 = _interopRequireDefault(_Footer);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function Contact() {
+	  return _react2.default.createElement(
+	    'div',
+	    { style: { height: '100%', backgroundColor: 'inherit' } },
+	    _react2.default.createElement(
+	      'div',
+	      {
+	        style: {
+	          minHeight: '100%',
+	          backgroundColor: 'inherit',
+	          display: 'flex',
+	          alignItems: 'center',
+	          justifyContent: 'center'
+	        }
+	      },
+	      _react2.default.createElement(
+	        'div',
+	        {
+	          style: {
+	            display: 'flex',
+	            flexDirection: 'column',
+	            margin: '25px 3vw 50px 3vw'
+	          }
+	        },
+	        _react2.default.createElement('img', {
+	          style: { width: '280px', height: '280px', borderRadius: '7px' },
+	          src: '/imgs/rafael_pedicini-280.jpg',
+	          srcSet: '/imgs/rafael_pedicini-560.jpg 2x',
+	          alt: 'Rafael Pedicini'
+	        }),
+	        _react2.default.createElement(
+	          'div',
+	          { style: { margin: '7px 0 0 2px' } },
+	          _react2.default.createElement(
+	            'h1',
+	            { style: { fontSize: '24px' } },
+	            'Rafael Pedicini'
+	          ),
+	          _react2.default.createElement(
+	            'ul',
+	            null,
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              'San Francisco, CA'
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              '(857) 498 - 0011'
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'mailto:rafael@rafrex.com' },
+	                'rafael@rafrex.com'
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://github.com/rafrex', target: '_blank' },
+	                'GitHub'
+	              ),
+	              ' ',
+	              ' - ',
+	              ' ',
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://www.linkedin.com/in/rpedicini', target: '_blank' },
+	                'LinkedIn'
+	              ),
+	              ' ',
+	              ' - ',
+	              ' ',
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://twitter.com/rafrrex', target: '_blank' },
+	                'Twitter'
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://www.facebook.com/rpedicini', target: '_blank' },
+	                'Facebook'
+	              ),
+	              ' ',
+	              ' - ',
+	              ' ',
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://www.instagram.com/rafrex/', target: '_blank' },
+	                'Instagram'
+	              )
+	            )
+	          )
+	        )
+	      )
+	    ),
+	    _react2.default.createElement(_Footer2.default, null)
+	  );
+	}
+	
+	exports.default = Contact;
+
+/***/ },
+/* 241 */
+/*!*******************************!*\
+  !*** ./components/Footer.jsx ***!
+  \*******************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRouter = __webpack_require__(/*! react-router */ 168);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function Footer() {
+	  return _react2.default.createElement(
+	    'footer',
+	    {
+	      style: {
+	        position: 'fixed',
+	        bottom: 0,
+	        width: '100%',
+	        backgroundColor: 'inherit',
+	        textAlign: 'center',
+	        fontSize: '18px',
+	        padding: '2px 0 3px 0'
+	      }
+	    },
+	    _react2.default.createElement(
+	      _reactRouter.Link,
+	      { to: '/', style: { width: '100%', display: 'block' } },
+	      'close'
+	    )
+	  );
+	}
+	
+	exports.default = Footer;
+
+/***/ },
+/* 242 */
+/*!*********************************!*\
+  !*** ./content/codeProjects.js ***!
+  \*********************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.example = exports.reactGithubPages = exports.fluxDispatcher = exports.mySite = exports.grams = exports.favicon = exports.fourCornerLayout = exports.detectTouch = exports.reactRouterHashLinkScroll = exports.fractal = exports.spaGithubPages = exports.myGithub = exports.projectList = undefined;
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var projectList = exports.projectList = ['myGithub', 'spaGithubPages', 'fractal', 'fourCornerLayout', 'detectTouch', 'reactRouterHashLinkScroll', 'fluxDispatcher', 'mySite', 'reactGithubPages', 'favicon', 'grams'];
+	
+	var myGithub = exports.myGithub = {
+	  project: [{
+	    title: 'https://github.com/rafrex',
+	    link: 'https://github.com/rafrex'
+	  }],
+	  notes: 'my github, js, react, responsive, mobile'
+	};
+	
+	var spaGithubPages = exports.spaGithubPages = {
+	  project: [{
+	    title: 'Single page apps for github pages',
+	    link: 'https://github.com/rafrex/spa-github-pages'
+	  }],
+	  notes: 'js, utility to host spas with gh-pages'
+	};
+	
+	var fractal = exports.fractal = {
+	  project: [{
+	    title: 'Fractal generator',
+	    link: 'http://fractal.rafrex.com'
+	  }, {
+	    title: 'github',
+	    link: 'https://github.com/rafrex/fractal'
+	  }],
+	  notes: 'js web app, zero libraies, responsive, mobile'
+	};
+	
+	var reactRouterHashLinkScroll = exports.reactRouterHashLinkScroll = {
+	  project: [{
+	    title: 'React router hash link scroll',
+	    link: 'https://github.com/rafrex/react-router-hash-link-scroll'
+	  }],
+	  notes: 'js, react, hash link scroll for react-router'
+	};
+	
+	var detectTouch = exports.detectTouch = {
+	  project: [{
+	    title: 'Detect touch',
+	    link: 'http://detect-touch.rafrex.com'
+	  }, {
+	    title: 'github',
+	    link: 'https://github.com/rafrex/detect-touch'
+	  }, {
+	    title: 'npm',
+	    link: 'https://www.npmjs.com/package/detect-touch'
+	  }],
+	  notes: 'js, mobile, npm package'
+	};
+	
+	var fourCornerLayout = exports.fourCornerLayout = {
+	  project: [{
+	    title: 'Four corner layout',
+	    link: 'http://four-corner-layout.rafrex.com'
+	  }, {
+	    title: 'github',
+	    link: 'https://github.com/rafrex/four-corner-layout'
+	  }],
+	  notes: 'design concept, svg, react, responsive, mobile'
+	};
+	
+	var favicon = exports.favicon = {
+	  project: [{
+	    title: 'Favicon'
+	  }, {
+	    title: 'green grid',
+	    link: 'http://favicon.rafrex.com/green-grid-144-168-192'
+	  }, {
+	    title: 'gray grid',
+	    link: 'http://favicon.rafrex.com/gray-grid-104-128-160'
+	  }, {
+	    title: 'green light',
+	    link: 'http://favicon.rafrex.com/green-light-168'
+	  }],
+	  notes: 'gh-pages favicon server'
+	};
+	
+	var grams = exports.grams = {
+	  project: [{
+	    title: 'Grams',
+	    link: 'https://github.com/rafrex/grams'
+	  }],
+	  notes: 'rails mvc'
+	};
+	
+	var mySite = exports.mySite = {
+	  project: [{
+	    title: 'This site on github',
+	    link: 'https://github.com/rafrex/rafrex.github.io'
+	  }],
+	  notes: 'design, js, react, responsive, mobile'
+	};
+	
+	var fluxDispatcher = exports.fluxDispatcher = {
+	  project: [{
+	    title: 'Async flux dispatcher',
+	    link: 'https://github.com/rafrex/flux-async-dispatcher'
+	  }],
+	  notes: 'js, react, flux'
+	};
+	
+	var reactGithubPages = exports.reactGithubPages = {
+	  project: [{
+	    title: 'React github pages',
+	    link: 'https://github.com/rafrex/react-github-pages'
+	  }],
+	  notes: _react2.default.createElement(
+	    'span',
+	    null,
+	    'js, react, predecessor to ',
+	    _react2.default.createElement(
+	      'a',
+	      { href: 'https://github.com/rafrex/spa-github-pages', target: '_blank' },
+	      'spa-github-pages'
+	    )
+	  )
+	};
+	
+	var example = exports.example = {
+	  project: [{
+	    title: '',
+	    link: ''
+	  }, {
+	    title: '',
+	    link: ''
+	  }],
+	  notes: ''
+	};
 
 /***/ }
 /******/ ]);

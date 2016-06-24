@@ -104,8 +104,8 @@ footer a:hover, footer a:active {
 /*custom bullets*/
 li {
   list-style: none;
-  padding-left: 18px;
-  text-indent: -15px;
+  padding-left: 22px;
+  text-indent: -19px;
   margin: 5px 0;
 }
 
@@ -114,6 +114,9 @@ li:before {
   padding-right: 10px;
 }
 
+.code-list li {
+  margin: 15px 0;
+}
 
 /*coming soon transition*/
 .coming-soon-enter {
