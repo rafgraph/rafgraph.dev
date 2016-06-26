@@ -9,6 +9,7 @@ export const projectList = [
   'reactRouterHashLinkScroll',
   'fluxDispatcher',
   'mySite',
+  'svgArrows',
   'reactGithubPages',
   'favicon',
   'grams',
@@ -152,6 +153,19 @@ export const reactGithubPages = {
   notes: <span>js, react, predecessor to <a href="https://github.com/rafrex/spa-github-pages" target="_blank">spa-github-pages</a></span>,
 };
 
+export const svgArrows = {
+  project: [
+    {
+      title: 'Svg react component',
+      link: 'https://medium.com/@rafrex/svg-react-stateless-functional-component-declarative-example-1d103d79011c',
+    },
+    {
+      title: 'gist',
+      link: 'https://gist.github.com/rafrex/4c26fb491d59bb2916b63ef1407a6189',
+    },
+  ],
+  notes: 'svg, js, react',
+};
 
 export const example = {
   project: [
