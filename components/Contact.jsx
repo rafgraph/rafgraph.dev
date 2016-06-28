@@ -40,6 +40,8 @@ function Contact() {
                 <a href="https://twitter.com/rafrrex" target="_blank">Twitter</a>
               </li>
               <li>
+                <a href="https://medium.com/@rafrex" target="_blank">Medium</a>
+                {' '} - {' '}
                 <a href="https://www.facebook.com/rpedicini" target="_blank">Facebook</a>
                 {' '} - {' '}
                 <a href="https://www.instagram.com/rafrex/" target="_blank">Instagram</a>
