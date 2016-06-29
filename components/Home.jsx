@@ -25,21 +25,21 @@ class Home extends React.Component {
   render() {
     return (
       <nav style={{ height: '100%', fontSize: '15vmin', letterSpacing: '0.025em' }}>
-        <Link
+        <div style={{ height: '33%' }}><Link
           to="/code" id="code"
           style={{
             display: 'flex', justifyContent: 'center', alignItems: 'center',
-            height: '33%',
+            height: '100%',
             backgroundColor: '#E0E0E0',
           }}
         >
           Code
-        </Link>
-        <Link
+        </Link></div>
+        <div style={{ height: '33%' }}><Link
           to="/" id="photography" onClick={this.handlePhotoClick}
           style={{
             display: 'flex', justifyContent: 'center', alignItems: 'center',
-            height: '33%',
+            height: '100%',
             backgroundColor: '#D0D0D0',
           }}
         >
@@ -64,17 +64,17 @@ class Home extends React.Component {
               {this.state.photoText}
             </span>
           </ReactCSSTransitionGroup>
-        </Link>
-        <Link
+        </Link></div>
+        <div style={{ height: '34%' }}><Link
           to="/contact" id="contact"
           style={{
             display: 'flex', justifyContent: 'center', alignItems: 'center',
-            height: '34%',
+            height: '100%',
             backgroundColor: '#C0C0C0',
           }}
         >
           Contact
-        </Link>
+        </Link></div>
       </nav>
     );
   }
