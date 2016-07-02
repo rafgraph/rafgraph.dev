@@ -127,7 +127,7 @@ export const mySite = {
   project: [
     {
       title: 'My website',
-      link: 'http://rafrex.com',
+      link: 'http://www.rafaelpedicini.com',
     },
   ],
   notes: 'design, js, react, responsive, mobile',
