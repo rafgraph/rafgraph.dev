@@ -9,7 +9,7 @@
   "license": "UNLICENSED",
   "homepage": "http://rafrex.github.io",
   "dependencies": {
-    "current-input": "^0.1.0",
+    "current-input": "^1.1.0",
     "react": "^15.1.0",
     "react-addons-css-transition-group": "^15.1.0",
     "react-dom": "^15.1.0",
