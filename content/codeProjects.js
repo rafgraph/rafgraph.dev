@@ -4,13 +4,16 @@ export const projectList = [
   'myGithub',
   'spaGithubPages',
   'fractal',
+  'currentInput',
+  'detectIt',
+  'theListener',
   'fourCornerLayout',
-  'detectTouch',
   'reactRouterHashLinkScroll',
   'fluxDispatcher',
   'mySite',
   'svgArrows',
   'reactGithubPages',
+  'detectTouch',
   'favicon',
   'grams',
 ];
@@ -75,7 +78,7 @@ export const detectTouch = {
       link: 'https://www.npmjs.com/package/detect-touch',
     },
   ],
-  notes: 'js, mobile, npm package',
+  notes: <span>js, mobile, predecessor to <a href="https://github.com/rafrex/detect-it" target="_blank">detect-it</a></span>,
 };
 
 export const fourCornerLayout = {
@@ -165,6 +168,56 @@ export const svgArrows = {
     },
   ],
   notes: 'svg, js, react',
+};
+
+export const detectIt = {
+  project: [
+    {
+      title: 'Detect it',
+      link: 'http://detect-it.rafrex.com',
+    },
+    {
+      title: 'github',
+      link: 'https://github.com/rafrex/detect-it',
+    },
+    {
+      title: 'npm',
+      link: 'https://www.npmjs.com/package/detect-it',
+    },
+  ],
+  notes: 'js, detect device type (mouse, touch, hybrid)',
+};
+
+export const theListener = {
+  project: [
+    {
+      title: 'The listener',
+      link: 'https://github.com/rafrex/the-listener',
+    },
+    {
+      title: 'npm',
+      link: 'https://www.npmjs.com/package/the-listener',
+    },
+  ],
+  notes: 'js, easily set complex mouse and touch event listeners',
+};
+
+export const currentInput = {
+  project: [
+    {
+      title: 'Current input',
+      link: 'http://current-input.rafrex.com',
+    },
+    {
+      title: 'github',
+      link: 'https://github.com/rafrex/current-input',
+    },
+    {
+      title: 'npm',
+      link: 'https://www.npmjs.com/package/current-input',
+    },
+  ],
+  notes: 'js, fixes the sticky hover problem on mobile',
 };
 
 export const example = {
