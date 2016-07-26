@@ -1,6 +1,9 @@
 {
   "name": "rafrex.github.io",
   "description": "my place on the internet",
+  "scripts": {
+    "start": "webpack -d --watch & live-server --entry-file=404.html"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rafrex/rafrex.github.io.git"
