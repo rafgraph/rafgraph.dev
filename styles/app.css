@@ -9,6 +9,7 @@ html, body, div, span, a, p, ul, li, h1, nav {
   text-align: inherit;
   color: inherit;
   background: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 html {
