@@ -37,14 +37,14 @@ function Contact() {
                 {' '} - {' '}
                 <a href="https://www.linkedin.com/in/rpedicini" target="_blank">LinkedIn</a>
                 {' '} - {' '}
-                <a href="https://twitter.com/rafrrex" target="_blank">Twitter</a>
+                <a href="https://twitter.com/rafgraph" target="_blank">Twitter</a>
               </li>
               <li>
-                <a href="https://medium.com/@rafrex" target="_blank">Medium</a>
+                <a href="https://medium.com/@rafgraph" target="_blank">Medium</a>
                 {' '} - {' '}
                 <a href="https://www.facebook.com/rpedicini" target="_blank">Facebook</a>
                 {' '} - {' '}
-                <a href="https://www.instagram.com/rafrex/" target="_blank">Instagram</a>
+                <a href="https://www.instagram.com/rafgraph/" target="_blank">Instagram</a>
               </li>
             </ul>
           </div>
