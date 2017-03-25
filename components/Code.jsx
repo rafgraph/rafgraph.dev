@@ -26,7 +26,10 @@ function Code() {
                 {codeProjects[proj].project.map((item, idx2, array) => (
                   <span key={idx2}>
                     {item.link ?
-                      <a href={item.link} target="_blank">{item.title}</a> :
+                      <a href={item.link} target="_blank" rel="noopener noreferrer">
+                        {item.title}
+                      </a>
+                      :
                       item.title
                     }
                     {(idx2 + 1) < array.length && <span> &nbsp;&ndash;&nbsp; </span>}

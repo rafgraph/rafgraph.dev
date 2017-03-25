@@ -33,18 +33,18 @@ function Contact() {
               <li>(857) 498 - 0011</li>
               <li><a href="mailto:rafael@rafrex.com">rafael@rafrex.com</a></li>
               <li>
-                <a href="https://github.com/rafrex" target="_blank">GitHub</a>
+                <a href="https://github.com/rafrex" target="_blank" rel="noopener noreferrer">GitHub</a>
                 {' '} - {' '}
-                <a href="https://www.linkedin.com/in/rpedicini" target="_blank">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/rpedicini" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 {' '} - {' '}
-                <a href="https://twitter.com/rafgraph" target="_blank">Twitter</a>
+                <a href="https://twitter.com/rafgraph" target="_blank" rel="noopener noreferrer">Twitter</a>
               </li>
               <li>
-                <a href="https://medium.com/@rafgraph" target="_blank">Medium</a>
+                <a href="https://medium.com/@rafgraph" target="_blank" rel="noopener noreferrer">Medium</a>
                 {' '} - {' '}
-                <a href="https://www.facebook.com/rpedicini" target="_blank">Facebook</a>
+                <a href="https://www.facebook.com/rpedicini" target="_blank" rel="noopener noreferrer">Facebook</a>
                 {' '} - {' '}
-                <a href="https://www.instagram.com/rafgraph/" target="_blank">Instagram</a>
+                <a href="https://www.instagram.com/rafgraph/" target="_blank" rel="noopener noreferrer">Instagram</a>
               </li>
             </ul>
           </div>
