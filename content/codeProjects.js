@@ -9,7 +9,7 @@ export const projectList = [
   'detectIt',
   'theListener',
   'fourCornerLayout',
-  'reactRouterHashLinkScroll',
+  'reactRouterHashLink',
   'fluxDispatcher',
   'mySite',
   'svgArrows',
@@ -54,11 +54,15 @@ export const fractal = {
   notes: 'js web app, zero libraries, responsive, mobile',
 };
 
-export const reactRouterHashLinkScroll = {
+export const reactRouterHashLink = {
   project: [
     {
-      title: 'React router hash link scroll',
-      link: 'https://github.com/rafrex/react-router-hash-link-scroll',
+      title: 'React router hash link',
+      link: 'https://github.com/rafrex/react-router-hash-link',
+    },
+    {
+      title: 'npm',
+      link: 'https://www.npmjs.com/package/react-router-hash-link',
     },
   ],
   notes: 'js, react, hash link scroll for react-router',
