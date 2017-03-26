@@ -2,6 +2,7 @@ import React from 'react';
 
 export const projectList = [
   'myGithub',
+  'reactInteractive',
   'spaGithubPages',
   'fractal',
   'currentInput',
@@ -218,6 +219,24 @@ export const currentInput = {
     },
   ],
   notes: 'js, fixes the sticky hover problem on mobile',
+};
+
+export const reactInteractive = {
+  project: [
+    {
+      title: 'React interactive',
+      link: 'http://react-interactive.rafrex.com',
+    },
+    {
+      title: 'github',
+      link: 'https://github.com/rafrex/react-interactive',
+    },
+    {
+      title: 'npm',
+      link: 'https://www.npmjs.com/package/react-interactive',
+    },
+  ],
+  notes: 'js, react, mobile, interactive state machine',
 };
 
 export const example = {
