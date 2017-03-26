@@ -240,7 +240,7 @@ export const reactInteractive = {
       link: 'https://www.npmjs.com/package/react-interactive',
     },
   ],
-  notes: 'js, react, mobile, interactive state machine',
+  notes: 'js, react, interactive state machine',
 };
 
 export const example = {
