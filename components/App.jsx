@@ -9,11 +9,10 @@ function App({ children }) {
     <div
       style={{
         height: '100%',
-        fontFamily: 'helvetica neue, helvetica, sans-serif',
+        fontFamily: 'helvetica, sans-serif',
         backgroundColor: '#F0F0F0',
         fontWeight: '300',
         fontSize: '16px',
-        letterSpacing: '0.025em',
       }}
     >
       {children}

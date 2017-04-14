@@ -24,7 +24,7 @@ class Home extends React.Component {
 
   render() {
     return (
-      <nav style={{ height: '100%', fontSize: '15vmin', letterSpacing: '0.025em' }}>
+      <nav style={{ height: '100%', fontSize: '15vmin' }}>
         <div style={{ height: '33%' }}><Link
           to="/code" id="code"
           style={{
