@@ -7,6 +7,7 @@ export const projectList = [
   'fractal',
   'detectIt',
   'reactRouterHashLink',
+  'fscreen',
   'currentInput',
   'theListener',
   'fourCornerLayout',
@@ -241,6 +242,24 @@ export const reactInteractive = {
     },
   ],
   notes: 'js, react, interactive state machine',
+};
+
+export const fscreen = {
+  project: [
+    {
+      title: 'Fscreen',
+      link: 'http://fscreen.rafrex.com',
+    },
+    {
+      title: 'github',
+      link: 'https://github.com/rafrex/fscreen',
+    },
+    {
+      title: 'npm',
+      link: 'https://www.npmjs.com/package/fscreen',
+    },
+  ],
+  notes: 'js, vendor agnostic access to the fullscreen api',
 };
 
 export const example = {
