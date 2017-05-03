@@ -36,6 +36,7 @@ class Home extends React.Component {
             hover={{ color: 'rgb(0, 168, 0)' }}
             active="hover"
             focusFromTab={{ backgroundColor: 'rgba(0, 168, 0, .2)' }}
+            touchActiveTapOnly
           >Code</Interactive>
         </div>
         <div style={{ height: '33%' }}>
@@ -53,6 +54,7 @@ class Home extends React.Component {
             hover={{ color: 'rgb(0, 168, 0)' }}
             active="hover"
             focusFromTab={{ backgroundColor: 'rgba(0, 168, 0, .3)' }}
+            touchActiveTapOnly
           >
             <CSSTransitionGroup
               transitionName="coming-soon"
@@ -91,6 +93,7 @@ class Home extends React.Component {
             hover={{ color: 'rgb(0, 168, 0)' }}
             active="hover"
             focusFromTab={{ backgroundColor: 'rgba(0, 168, 0, .4)' }}
+            touchActiveTapOnly
           >Contact</Interactive>
         </div>
       </nav>
