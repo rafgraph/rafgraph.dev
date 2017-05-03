@@ -69,7 +69,7 @@ nav a {
 }*/
 
 /*foot links*/
-footer a {
+/*footer a {
   border: none;
 }
 
@@ -86,7 +86,7 @@ footer a:hover, footer a:active {
 .current-input-touch footer a:active {
   color: rgb(0, 168, 0);
   border: none;
-}
+}*/
 
 
 /*custom bullets*/
