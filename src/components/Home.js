@@ -1,9 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
-import Interactive from 'react-interactive';
+import NavItem from './NavItem';
 
-class Home extends React.Component {
+export default class Home extends React.Component {
   state = {
     photoText: 'Photography',
   };
@@ -23,38 +22,18 @@ class Home extends React.Component {
     return (
       <nav style={{ height: '100%', fontSize: '15vmin' }}>
         <div style={{ height: '33%' }}>
-          <Interactive
-            as={Link}
+          <NavItem
             to="/code"
-            style={{
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              height: '100%',
-              backgroundColor: '#E0E0E0',
-            }}
-            hover={{ color: 'rgb(0, 168, 0)' }}
-            active="hover"
-            focusFromTab={{ backgroundColor: 'rgba(0, 168, 0, .2)' }}
-            touchActiveTapOnly
-          >Code</Interactive>
+            backgroundColor="#E0E0E0"
+            focusBackgroundColor="rgba(0, 168, 0, 0.2)"
+          >Code</NavItem>
         </div>
         <div style={{ height: '33%' }}>
-          <Interactive
-            as={Link}
+          <NavItem
             to="/"
             onClick={this.handlePhotoClick}
-            style={{
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              height: '100%',
-              backgroundColor: '#D0D0D0',
-            }}
-            hover={{ color: 'rgb(0, 168, 0)' }}
-            active="hover"
-            focusFromTab={{ backgroundColor: 'rgba(0, 168, 0, .3)' }}
-            touchActiveTapOnly
+            backgroundColor="#D0D0D0"
+            focusBackgroundColor="rgba(0, 168, 0, 0.3)"
           >
             <CSSTransitionGroup
               transitionName="coming-soon"
@@ -73,32 +52,18 @@ class Home extends React.Component {
                   msTransform: 'translate(-50%, -50%)',
                   transform: 'translate(-50%, -50%)',
                 }}
-              >
-                {this.state.photoText}
-              </span>
+              >{this.state.photoText}</span>
             </CSSTransitionGroup>
-          </Interactive>
+          </NavItem>
         </div>
         <div style={{ height: '34%' }}>
-          <Interactive
-            as={Link}
+          <NavItem
             to="/contact"
-            style={{
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              height: '100%',
-              backgroundColor: '#C0C0C0',
-            }}
-            hover={{ color: 'rgb(0, 168, 0)' }}
-            active="hover"
-            focusFromTab={{ backgroundColor: 'rgba(0, 168, 0, .4)' }}
-            touchActiveTapOnly
-          >Contact</Interactive>
+            backgroundColor="#C0C0C0"
+            focusBackgroundColor="rgba(0, 168, 0, 0.4)"
+          >Contact</NavItem>
         </div>
       </nav>
     );
   }
 }
-
-export default Home;
