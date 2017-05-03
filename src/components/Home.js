@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 
 class Home extends React.Component {
   constructor(props) {
@@ -47,7 +47,7 @@ class Home extends React.Component {
             backgroundColor: '#D0D0D0',
           }}
         >
-          <ReactCSSTransitionGroup
+          <CSSTransitionGroup
             transitionName="coming-soon"
             transitionEnterTimeout={0}
             transitionLeaveTimeout={0}
@@ -67,7 +67,7 @@ class Home extends React.Component {
             >
               {this.state.photoText}
             </span>
-          </ReactCSSTransitionGroup>
+          </CSSTransitionGroup>
         </Link></div>
         <div style={{ height: '34%' }}><Link
           to="/contact" id="contact"
