@@ -17,7 +17,7 @@ class Home extends React.Component {
         { photoText: 'Coming Soon...' },
         () => (setTimeout(() => {
           this.setState({ photoText: 'Photography' });
-        }, 1700))
+        }, 1700)),
       );
     }
   }
@@ -28,7 +28,9 @@ class Home extends React.Component {
         <div style={{ height: '33%' }}><Link
           to="/code" id="code"
           style={{
-            display: 'flex', justifyContent: 'center', alignItems: 'center',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
             height: '100%',
             backgroundColor: '#E0E0E0',
           }}
@@ -38,7 +40,9 @@ class Home extends React.Component {
         <div style={{ height: '33%' }}><Link
           to="/" id="photography" onClick={this.handlePhotoClick}
           style={{
-            display: 'flex', justifyContent: 'center', alignItems: 'center',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
             height: '100%',
             backgroundColor: '#D0D0D0',
           }}
@@ -68,7 +72,9 @@ class Home extends React.Component {
         <div style={{ height: '34%' }}><Link
           to="/contact" id="contact"
           style={{
-            display: 'flex', justifyContent: 'center', alignItems: 'center',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
             height: '100%',
             backgroundColor: '#C0C0C0',
           }}

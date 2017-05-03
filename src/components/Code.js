@@ -20,9 +20,9 @@ function Code() {
           <h1 style={{ fontSize: '32px' }}>Code</h1>
 
           <ul className="code-list">
-            {codeProjects.projectList.map((proj, idx1) => (
+            {codeProjects.projectList.map(proj => (
 
-              <li key={idx1}>
+              <li key={proj}>
                 {codeProjects[proj].project.map((item, idx2, array) => (
                   <span key={idx2}>
                     {item.link ?
