@@ -5,6 +5,11 @@
   "env": {
     "browser": true
   },
+  "rules": {
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["./webpack.config.js"]}],
+    "react/jsx-filename-extension": "off",
+    "react/no-array-index-key": "off"
+  },
   "parserOptions": {
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+import { Link } from 'react-router-dom';
+import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 
 class Home extends React.Component {
   constructor(props) {
@@ -17,7 +17,7 @@ class Home extends React.Component {
         { photoText: 'Coming Soon...' },
         () => (setTimeout(() => {
           this.setState({ photoText: 'Photography' });
-        }, 1700))
+        }, 1700)),
       );
     }
   }
@@ -28,7 +28,9 @@ class Home extends React.Component {
         <div style={{ height: '33%' }}><Link
           to="/code" id="code"
           style={{
-            display: 'flex', justifyContent: 'center', alignItems: 'center',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
             height: '100%',
             backgroundColor: '#E0E0E0',
           }}
@@ -38,12 +40,14 @@ class Home extends React.Component {
         <div style={{ height: '33%' }}><Link
           to="/" id="photography" onClick={this.handlePhotoClick}
           style={{
-            display: 'flex', justifyContent: 'center', alignItems: 'center',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
             height: '100%',
             backgroundColor: '#D0D0D0',
           }}
         >
-          <ReactCSSTransitionGroup
+          <CSSTransitionGroup
             transitionName="coming-soon"
             transitionEnterTimeout={0}
             transitionLeaveTimeout={0}
@@ -63,12 +67,14 @@ class Home extends React.Component {
             >
               {this.state.photoText}
             </span>
-          </ReactCSSTransitionGroup>
+          </CSSTransitionGroup>
         </Link></div>
         <div style={{ height: '34%' }}><Link
           to="/contact" id="contact"
           style={{
-            display: 'flex', justifyContent: 'center', alignItems: 'center',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
             height: '100%',
             backgroundColor: '#C0C0C0',
           }}

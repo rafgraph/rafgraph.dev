@@ -84,7 +84,7 @@ export const detectTouch = {
       link: 'https://www.npmjs.com/package/detect-touch',
     },
   ],
-  notes: <span>js, mobile, predecessor to <a href="https://github.com/rafrex/detect-it" target="_blank">detect-it</a></span>,
+  notes: <span>js, mobile, predecessor to <a href="https://github.com/rafrex/detect-it" target="_blank" rel="noopener noreferrer">detect-it</a></span>,
 };
 
 export const fourCornerLayout = {
@@ -159,7 +159,7 @@ export const reactGithubPages = {
       link: 'https://github.com/rafrex/react-github-pages',
     },
   ],
-  notes: <span>js, react, predecessor to <a href="https://github.com/rafrex/spa-github-pages" target="_blank">spa-github-pages</a></span>,
+  notes: <span>js, react, predecessor to <a href="https://github.com/rafrex/spa-github-pages" target="_blank" rel="noopener noreferrer">spa-github-pages</a></span>,
 };
 
 export const svgArrows = {
