@@ -1,11 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { Switch, Route, Redirect } from 'react-router-dom';
+import Home from './Home';
+import Code from './Code';
+import Contact from './Contact';
 
-const propTypes = {
-  children: PropTypes.element.isRequired,
-};
-
-function App({ children }) {
+function App() {
   return (
     <div
       style={{
@@ -16,11 +15,14 @@ function App({ children }) {
         fontSize: '16px',
       }}
     >
-      {children}
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/code" component={Code} />
+        <Route exact path="/contact" component={Contact} />
+        <Route render={() => <Redirect to="/" />} />
+      </Switch>
     </div>
   );
 }
-
-App.propTypes = propTypes;
 
 export default App;
