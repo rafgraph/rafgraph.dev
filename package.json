@@ -13,7 +13,6 @@
   "license": "UNLICENSED",
   "homepage": "http://rafrex.github.io",
   "dependencies": {
-    "current-input": "^1.1.1",
     "prop-types": "^15.5.8",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
