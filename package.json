@@ -2,7 +2,8 @@
   "name": "rafrex.github.io",
   "description": "my place on the internet",
   "scripts": {
-    "start": "webpack -d --watch & live-server --entry-file=404.html"
+    "start": "webpack-dev-server --devtool eval-source-map --host 0.0.0.0 --public 10.0.1.4:8080 --history-api-fallback --open",
+    "build": "webpack -p"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
-    "webpack": "^1.13.1"
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
   }
 }
