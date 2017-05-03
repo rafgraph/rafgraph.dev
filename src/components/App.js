@@ -13,6 +13,10 @@ function App() {
         backgroundColor: '#F0F0F0',
         fontWeight: '300',
         fontSize: '16px',
+        WebkitTextSizeAdjust: 'none',
+        MozTextSizeAdjust: 'none',
+        msTextSizeAdjust: 'none',
+        textSizeAdjust: 'none',
       }}
     >
       <Switch>
