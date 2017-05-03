@@ -4,7 +4,7 @@ import Home from './Home';
 import Code from './Code';
 import Contact from './Contact';
 
-function App() {
+export default function App() {
   return (
     <div
       style={{
@@ -13,6 +13,10 @@ function App() {
         backgroundColor: '#F0F0F0',
         fontWeight: '300',
         fontSize: '16px',
+        WebkitTextSizeAdjust: 'none',
+        MozTextSizeAdjust: 'none',
+        msTextSizeAdjust: 'none',
+        textSizeAdjust: 'none',
       }}
     >
       <Switch>
@@ -24,5 +28,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Interactive from 'react-interactive';
 
-function Footer() {
+export default function Footer() {
   return (
     <footer
       style={{
@@ -11,12 +12,21 @@ function Footer() {
         backgroundColor: 'inherit',
         textAlign: 'center',
         fontSize: '18px',
-        padding: '2px 0 3px 0',
       }}
     >
-      <Link to="/" style={{ width: '100%', display: 'block' }}>close</Link>
+      <Interactive
+        as={Link}
+        to="/"
+        style={{
+          width: '100%',
+          display: 'block',
+          padding: '2px 0 3px 0',
+        }}
+        hover={{ color: 'rgb(0, 168, 0)' }}
+        active="hover"
+        focusFromTab={{ backgroundColor: 'rgba(0, 168, 0, .4)' }}
+        touchActiveTapOnly
+      >close</Interactive>
     </footer>
   );
 }
-
-export default Footer;
