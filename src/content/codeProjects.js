@@ -35,7 +35,7 @@ export const myGithub = {
 export const spaGithubPages = {
   project: [
     {
-      title: 'Single page apps for github pages',
+      title: 'Single Page Apps for GitHub Pages',
       link: 'https://github.com/rafrex/spa-github-pages',
     },
   ],
@@ -45,7 +45,7 @@ export const spaGithubPages = {
 export const fractal = {
   project: [
     {
-      title: 'Fractal generator',
+      title: 'Fractal Generator',
       link: 'http://fractal.rafrex.com',
     },
     {
@@ -59,7 +59,11 @@ export const fractal = {
 export const reactRouterHashLink = {
   project: [
     {
-      title: 'React router hash link',
+      title: 'React Router Hash Link',
+      link: 'http://react-router-hash-link.rafrex.com',
+    },
+    {
+      title: 'github',
       link: 'https://github.com/rafrex/react-router-hash-link',
     },
     {
@@ -67,13 +71,13 @@ export const reactRouterHashLink = {
       link: 'https://www.npmjs.com/package/react-router-hash-link',
     },
   ],
-  notes: 'js, react, hash link scroll for react-router',
+  notes: 'js, hash link scroll for react router',
 };
 
 export const detectTouch = {
   project: [
     {
-      title: 'Detect touch',
+      title: 'Detect Touch',
       link: 'http://detect-touch.rafrex.com',
     },
     {
@@ -91,7 +95,7 @@ export const detectTouch = {
 export const fourCornerLayout = {
   project: [
     {
-      title: 'Four corner layout',
+      title: 'Four Corner Layout',
       link: 'http://four-corner-layout.rafrex.com',
     },
     {
@@ -136,7 +140,7 @@ export const grams = {
 export const mySite = {
   project: [
     {
-      title: 'My website',
+      title: 'My Website',
       link: 'http://www.rafaelpedicini.com',
     },
   ],
@@ -146,7 +150,7 @@ export const mySite = {
 export const fluxDispatcher = {
   project: [
     {
-      title: 'Async flux dispatcher',
+      title: 'Async Flux Dispatcher',
       link: 'https://github.com/rafrex/flux-async-dispatcher',
     },
   ],
@@ -156,7 +160,7 @@ export const fluxDispatcher = {
 export const reactGithubPages = {
   project: [
     {
-      title: 'React github pages',
+      title: 'React GitHub Pages',
       link: 'https://github.com/rafrex/react-github-pages',
     },
   ],
@@ -166,7 +170,7 @@ export const reactGithubPages = {
 export const svgArrows = {
   project: [
     {
-      title: 'Svg react component',
+      title: 'Svg React Component',
       link: 'https://medium.com/@rafrex/svg-react-stateless-functional-component-declarative-example-1d103d79011c',
     },
     {
@@ -180,7 +184,7 @@ export const svgArrows = {
 export const detectIt = {
   project: [
     {
-      title: 'Detect it',
+      title: 'Detect It',
       link: 'http://detect-it.rafrex.com',
     },
     {
@@ -198,7 +202,10 @@ export const detectIt = {
 export const theListener = {
   project: [
     {
-      title: 'The listener',
+      title: 'The Listener',
+    },
+    {
+      title: 'github',
       link: 'https://github.com/rafrex/the-listener',
     },
     {
@@ -206,13 +213,13 @@ export const theListener = {
       link: 'https://www.npmjs.com/package/the-listener',
     },
   ],
-  notes: 'js, easily set complex mouse and touch event listeners',
+  notes: 'js, set complex mouse and touch listeners',
 };
 
 export const currentInput = {
   project: [
     {
-      title: 'Current input',
+      title: 'Current iInput',
       link: 'http://current-input.rafrex.com',
     },
     {
@@ -230,7 +237,7 @@ export const currentInput = {
 export const reactInteractive = {
   project: [
     {
-      title: 'React interactive',
+      title: 'React Interactive',
       link: 'http://react-interactive.rafrex.com',
     },
     {
