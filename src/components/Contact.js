@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from './Footer';
+import InteractiveLink from './InteractiveLink';
 
 function Contact() {
   return (
@@ -31,20 +32,20 @@ function Contact() {
             <ul>
               <li>San Francisco, CA</li>
               <li>(857) 498 - 0011</li>
-              <li><a href="mailto:rafael@rafrex.com">rafael@rafrex.com</a></li>
+              <li><InteractiveLink href="mailto:rafael@rafrex.com" newWindow={false}>rafael@rafrex.com</InteractiveLink></li>
               <li>
-                <a href="https://github.com/rafrex" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <InteractiveLink href="https://github.com/rafrex">GitHub</InteractiveLink>
                 {' '} - {' '}
-                <a href="https://www.linkedin.com/in/rpedicini" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <InteractiveLink href="https://www.linkedin.com/in/rpedicini">LinkedIn</InteractiveLink>
                 {' '} - {' '}
-                <a href="https://twitter.com/rafgraph" target="_blank" rel="noopener noreferrer">Twitter</a>
+                <InteractiveLink href="https://twitter.com/rafgraph">Twitter</InteractiveLink>
               </li>
               <li>
-                <a href="https://medium.com/@rafgraph" target="_blank" rel="noopener noreferrer">Medium</a>
+                <InteractiveLink href="https://medium.com/@rafgraph">Medium</InteractiveLink>
                 {' '} - {' '}
-                <a href="https://www.facebook.com/rpedicini" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <InteractiveLink href="https://www.facebook.com/rpedicini">Facebook</InteractiveLink>
                 {' '} - {' '}
-                <a href="https://www.instagram.com/rafgraph/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <InteractiveLink href="https://www.instagram.com/rafgraph/">Instagram</InteractiveLink>
               </li>
             </ul>
           </div>

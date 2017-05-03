@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from './Footer';
+import InteractiveLink from './InteractiveLink';
 import * as codeProjects from '../content/codeProjects';
 
 function Code() {
@@ -21,14 +22,11 @@ function Code() {
 
           <ul className="code-list">
             {codeProjects.projectList.map(proj => (
-
               <li key={proj}>
                 {codeProjects[proj].project.map((item, idx2, array) => (
                   <span key={idx2}>
                     {item.link ?
-                      <a href={item.link} target="_blank" rel="noopener noreferrer">
-                        {item.title}
-                      </a>
+                      <InteractiveLink href={item.link}>{item.title}</InteractiveLink>
                       :
                       item.title
                     }
@@ -39,7 +37,6 @@ function Code() {
                   {' '}&nbsp;...&nbsp; {codeProjects[proj].notes}
                 </span>
               </li>
-
             ))}
           </ul>
 

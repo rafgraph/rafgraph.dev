@@ -1,4 +1,5 @@
 import React from 'react';
+import InteractiveLink from '../components/InteractiveLink';
 
 export const projectList = [
   'myGithub',
@@ -84,7 +85,7 @@ export const detectTouch = {
       link: 'https://www.npmjs.com/package/detect-touch',
     },
   ],
-  notes: <span>js, mobile, predecessor to <a href="https://github.com/rafrex/detect-it" target="_blank" rel="noopener noreferrer">detect-it</a></span>,
+  notes: <span>js, mobile, predecessor to <InteractiveLink href="https://github.com/rafrex/detect-it">detect-it</InteractiveLink></span>,
 };
 
 export const fourCornerLayout = {
@@ -159,7 +160,7 @@ export const reactGithubPages = {
       link: 'https://github.com/rafrex/react-github-pages',
     },
   ],
-  notes: <span>js, react, predecessor to <a href="https://github.com/rafrex/spa-github-pages" target="_blank" rel="noopener noreferrer">spa-github-pages</a></span>,
+  notes: <span>js, react, predecessor to <InteractiveLink href="https://github.com/rafrex/spa-github-pages">spa-github-pages</InteractiveLink></span>,
 };
 
 export const svgArrows = {
