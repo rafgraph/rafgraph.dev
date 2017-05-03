@@ -4,7 +4,7 @@ import Home from './Home';
 import Code from './Code';
 import Contact from './Contact';
 
-function App() {
+export default function App() {
   return (
     <div
       style={{
@@ -28,5 +28,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

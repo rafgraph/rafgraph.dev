@@ -3,9 +3,14 @@ import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 import NavItem from './NavItem';
 
 export default class Home extends React.Component {
-  state = {
-    photoText: 'Photography',
-  };
+  constructor() {
+    super();
+    document.title = 'Rafael Pedicini';
+    document.querySelector('meta[name=description]').content = 'Rafael Pedicini - Code, Photography, Contact';
+    this.state = {
+      photoText: 'Photography',
+    };
+  }
 
   handlePhotoClick = () => {
     if (this.state.photoText === 'Photography') {
