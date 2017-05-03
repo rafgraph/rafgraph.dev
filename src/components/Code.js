@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from './Footer';
 import InteractiveLink from './InteractiveLink';
+import Li from './Li';
 import * as codeProjects from '../content/codeProjects';
 
 function Code() {
@@ -22,7 +23,7 @@ function Code() {
 
           <ul className="code-list">
             {codeProjects.projectList.map(proj => (
-              <li key={proj}>
+              <Li margin="15px 0" key={proj}>
                 {codeProjects[proj].project.map((item, idx2, array) => (
                   <span key={idx2}>
                     {item.link ?
@@ -36,7 +37,7 @@ function Code() {
                 <span style={{ color: '#A0A0A0' }}>
                   {' '}&nbsp;...&nbsp; {codeProjects[proj].notes}
                 </span>
-              </li>
+              </Li>
             ))}
           </ul>
 

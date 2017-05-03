@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from './Footer';
 import InteractiveLink from './InteractiveLink';
+import Li from './Li';
 
 function Contact() {
   return (
@@ -30,23 +31,23 @@ function Contact() {
           <div style={{ margin: '7px 0 0 2px' }}>
             <h1 style={{ fontSize: '24px' }}>Rafael Pedicini</h1>
             <ul>
-              <li>San Francisco, CA</li>
-              <li>(857) 498 - 0011</li>
-              <li><InteractiveLink href="mailto:rafael@rafrex.com" newWindow={false}>rafael@rafrex.com</InteractiveLink></li>
-              <li>
+              <Li>San Francisco, CA</Li>
+              <Li>(857) 498 - 0011</Li>
+              <Li><InteractiveLink href="mailto:rafael@rafrex.com" newWindow={false}>rafael@rafrex.com</InteractiveLink></Li>
+              <Li>
                 <InteractiveLink href="https://github.com/rafrex">GitHub</InteractiveLink>
                 {' '} - {' '}
                 <InteractiveLink href="https://www.linkedin.com/in/rpedicini">LinkedIn</InteractiveLink>
                 {' '} - {' '}
                 <InteractiveLink href="https://twitter.com/rafgraph">Twitter</InteractiveLink>
-              </li>
-              <li>
+              </Li>
+              <Li>
                 <InteractiveLink href="https://medium.com/@rafgraph">Medium</InteractiveLink>
                 {' '} - {' '}
                 <InteractiveLink href="https://www.facebook.com/rpedicini">Facebook</InteractiveLink>
                 {' '} - {' '}
                 <InteractiveLink href="https://www.instagram.com/rafgraph/">Instagram</InteractiveLink>
-              </li>
+              </Li>
             </ul>
           </div>
         </div>

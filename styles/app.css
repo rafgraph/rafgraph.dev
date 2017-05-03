@@ -9,7 +9,7 @@ html, body, div, span, a, p, ul, li, h1, nav {
   text-align: inherit;
   color: inherit;
   background: transparent;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  /*-webkit-tap-highlight-color: rgba(0, 0, 0, 0);*/
 }
 
 html {
@@ -90,7 +90,7 @@ footer a:hover, footer a:active {
 
 
 /*custom bullets*/
-li {
+/*li {
   list-style: none;
   padding-left: 22px;
   text-indent: -19px;
@@ -104,7 +104,7 @@ li:before {
 
 .code-list li {
   margin: 15px 0;
-}
+}*/
 
 /*coming soon transition*/
 .coming-soon-enter {
