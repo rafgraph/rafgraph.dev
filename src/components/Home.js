@@ -3,15 +3,11 @@ import { Link } from 'react-router-dom';
 import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 
 class Home extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      photoText: 'Photography',
-    };
-    this.handlePhotoClick = this.handlePhotoClick.bind(this);
-  }
+  state = {
+    photoText: 'Photography',
+  };
 
-  handlePhotoClick() {
+  handlePhotoClick = () => {
     if (this.state.photoText === 'Photography') {
       this.setState(
         { photoText: 'Coming Soon...' },
