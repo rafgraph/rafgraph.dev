@@ -219,7 +219,7 @@ export const theListener = {
 export const currentInput = {
   project: [
     {
-      title: 'Current iInput',
+      title: 'Current Input',
       link: 'http://current-input.rafrex.com',
     },
     {
