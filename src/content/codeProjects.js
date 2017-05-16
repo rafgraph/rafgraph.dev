@@ -8,6 +8,8 @@ export const projectList = [
   'fractal',
   'detectIt',
   'reactRouterHashLink',
+  'reactMarkdownTree',
+  'reactMarkdownTreeConfigDefault',
   'fscreen',
   'currentInput',
   'theListener',
@@ -268,6 +270,41 @@ export const fscreen = {
     },
   ],
   notes: 'js, vendor agnostic access to the fullscreen api',
+};
+
+export const reactMarkdownTree = {
+  project: [
+    {
+      title: 'React Markdown Tree',
+      link: 'http://react-markdown-tree.rafrex.com',
+    },
+    {
+      title: 'github',
+      link: 'https://github.com/rafrex/react-markdown-tree',
+    },
+    {
+      title: 'npm',
+      link: 'https://www.npmjs.com/package/react-markdown-tree',
+    },
+  ],
+  notes: 'react markdown renderer',
+};
+
+export const reactMarkdownTreeConfigDefault = {
+  project: [
+    {
+      title: 'React Markdown Tree Style',
+    },
+    {
+      title: 'github',
+      link: 'https://github.com/rafrex/react-markdown-tree-config-default',
+    },
+    {
+      title: 'npm',
+      link: 'https://www.npmjs.com/package/react-markdown-tree-config-default',
+    },
+  ],
+  notes: 'react markdown default style',
 };
 
 export const example = {
