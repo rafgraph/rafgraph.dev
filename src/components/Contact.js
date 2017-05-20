@@ -4,13 +4,26 @@ import InteractiveLink from './InteractiveLink';
 import Li from './Li';
 
 export default class Contact extends React.Component {
-  constructor() {
-    super();
+  static updateDocTitle() {
     document.title = 'Contact Rafael Pedicini';
     document.querySelector('meta[name=description]').content = 'Contact Rafael Pedicini';
   }
 
+  constructor() {
+    super();
+    this.state = {
+      showContent: false,
+    };
+    // see note in Code component
+    window.requestAnimationFrame(this.renderContent);
+  }
+
+  renderContent = () => {
+    this.setState({ showContent: true }, Contact.updateDocTitle);
+  }
+
   render() {
+    if (this.state.showContent === false) return null;
     return (
       <div style={{ height: '100%', backgroundColor: 'inherit' }}>
         <div

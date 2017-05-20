@@ -5,13 +5,31 @@ import Li from './Li';
 import * as codeProjects from '../content/codeProjects';
 
 export default class Code extends React.Component {
-  constructor() {
-    super();
+  static updateDocTitle() {
     document.title = 'Code Projects by Rafael Pedicini';
     document.querySelector('meta[name=description]').content = 'Code Projects by Rafael Pedicini';
   }
 
+  constructor() {
+    super();
+    this.state = {
+      showContent: false,
+    };
+    // render content on next animation frame for improved perceived performance
+    // have the component mount with blank screen instantaneously,
+    // and then render content while showing blank screen,
+    // instead of rendering content while showing previous screen,
+    // which makes the site seem unresponsive to user input,
+    // need the instantaneous change, even to blank screen, to be perceived as fast
+    window.requestAnimationFrame(this.renderContent);
+  }
+
+  renderContent = () => {
+    this.setState({ showContent: true }, Code.updateDocTitle);
+  }
+
   render() {
+    if (this.state.showContent === false) return null;
     return (
       <div style={{ height: '100%', backgroundColor: 'inherit' }}>
         <div
