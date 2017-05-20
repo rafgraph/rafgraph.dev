@@ -10,22 +10,21 @@ export default class Code extends React.Component {
     document.querySelector('meta[name=description]').content = 'Code Projects by Rafael Pedicini';
   }
 
-  constructor() {
-    super();
-    this.state = {
-      showContent: false,
-    };
+  state = {
+    showContent: false,
+  };
+
+  componentDidMount() {
     // render content on next animation frame for improved perceived performance
     // have the component mount with blank screen instantaneously,
     // and then render content while showing blank screen,
     // instead of rendering content while showing previous screen,
     // which makes the site seem unresponsive to user input,
     // need the instantaneous change, even to blank screen, to be perceived as fast
-    window.requestAnimationFrame(this.renderContent);
-  }
-
-  renderContent = () => {
-    this.setState({ showContent: true }, Code.updateDocTitle);
+    window.setTimeout(() => {
+      this.setState({ showContent: true });
+    }, 16);
+    Code.updateDocTitle();
   }
 
   render() {

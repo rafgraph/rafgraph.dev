@@ -8,14 +8,12 @@ export default class Home extends React.Component {
     document.querySelector('meta[name=description]').content = 'Rafael Pedicini - Code, Photography, Contact';
   }
 
-  constructor() {
-    super();
-    this.state = {
-      photoText: 'Photography',
-      showContent: false,
-    };
-    // see note in Code component
-    window.requestAnimationFrame(this.renderContent);
+  state = {
+    photoText: 'Photography',
+  };
+
+  componentDidMount() {
+    Home.updateDocTitle();
   }
 
   handlePhotoClick = () => {
@@ -29,12 +27,7 @@ export default class Home extends React.Component {
     }
   }
 
-  renderContent = () => {
-    this.setState({ showContent: true }, Home.updateDocTitle);
-  }
-
   render() {
-    if (this.state.showContent === false) return null;
     return (
       <nav style={{ height: '100%', fontSize: '15vmin' }}>
         <div style={{ height: '33%' }}>

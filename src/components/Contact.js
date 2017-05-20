@@ -9,17 +9,16 @@ export default class Contact extends React.Component {
     document.querySelector('meta[name=description]').content = 'Contact Rafael Pedicini';
   }
 
-  constructor() {
-    super();
-    this.state = {
-      showContent: false,
-    };
-    // see note in Code component
-    window.requestAnimationFrame(this.renderContent);
-  }
+  state = {
+    showContent: false,
+  };
 
-  renderContent = () => {
-    this.setState({ showContent: true }, Contact.updateDocTitle);
+  componentDidMount() {
+    // see note in Code component
+    window.setTimeout(() => {
+      this.setState({ showContent: true });
+    }, 16);
+    Contact.updateDocTitle();
   }
 
   render() {
