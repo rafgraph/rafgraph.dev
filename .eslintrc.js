@@ -17,6 +17,7 @@ module.exports = {
     'no-param-reassign': ['error', { props: false }],
     'react/forbid-prop-types': 'off',
     'react/jsx-filename-extension': 'off',
+    'react/no-array-index-key': 'off',
     'prettier/prettier': ['warn', { trailingComma: 'all', singleQuote: true }],
   },
 };
