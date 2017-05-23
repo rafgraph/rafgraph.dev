@@ -5,7 +5,8 @@ import NavItem from './NavItem';
 export default class Home extends React.Component {
   static updateDocTitle() {
     document.title = 'Rafael Pedicini';
-    document.querySelector('meta[name=description]').content = 'Rafael Pedicini - Code, Photography, Contact';
+    document.querySelector('meta[name=description]').content =
+      'Rafael Pedicini - Code, Photography, Contact';
   }
 
   state = {
@@ -18,14 +19,13 @@ export default class Home extends React.Component {
 
   handlePhotoClick = () => {
     if (this.state.photoText === 'Photography') {
-      this.setState(
-        { photoText: 'Coming Soon...' },
-        () => (setTimeout(() => {
+      this.setState({ photoText: 'Coming Soon...' }, () =>
+        setTimeout(() => {
           this.setState({ photoText: 'Photography' });
-        }, 1700)),
+        }, 1700),
       );
     }
-  }
+  };
 
   render() {
     return (
@@ -35,7 +35,9 @@ export default class Home extends React.Component {
             to="/code"
             backgroundColor="#E0E0E0"
             focusBackgroundColor="rgba(0, 168, 0, 0.2)"
-          >Code</NavItem>
+          >
+            Code
+          </NavItem>
         </div>
         <div style={{ height: '33%' }}>
           <NavItem
@@ -61,7 +63,9 @@ export default class Home extends React.Component {
                   msTransform: 'translate(-50%, -50%)',
                   transform: 'translate(-50%, -50%)',
                 }}
-              >{this.state.photoText}</span>
+              >
+                {this.state.photoText}
+              </span>
             </CSSTransitionGroup>
           </NavItem>
         </div>
@@ -70,7 +74,9 @@ export default class Home extends React.Component {
             to="/contact"
             backgroundColor="#C0C0C0"
             focusBackgroundColor="rgba(0, 168, 0, 0.4)"
-          >Contact</NavItem>
+          >
+            Contact
+          </NavItem>
         </div>
       </nav>
     );

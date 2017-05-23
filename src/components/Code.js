@@ -7,7 +7,8 @@ import * as codeProjects from '../content/codeProjects';
 export default class Code extends React.Component {
   static updateDocTitle() {
     document.title = 'Code Projects by Rafael Pedicini';
-    document.querySelector('meta[name=description]').content = 'Code Projects by Rafael Pedicini';
+    document.querySelector('meta[name=description]').content =
+      'Code Projects by Rafael Pedicini';
   }
 
   state = {
@@ -50,12 +51,12 @@ export default class Code extends React.Component {
                 <Li margin="15px 0" key={proj}>
                   {codeProjects[proj].project.map((item, idx2, array) => (
                     <span key={idx2}>
-                      {item.link ?
-                        <InteractiveLink href={item.link}>{item.title}</InteractiveLink>
-                        :
-                        item.title
-                      }
-                      {(idx2 + 1) < array.length && <span> &nbsp;&ndash;&nbsp; </span>}
+                      {item.link
+                        ? <InteractiveLink href={item.link}>
+                            {item.title}
+                          </InteractiveLink>
+                        : item.title}
+                      {idx2 + 1 < array.length && <span> &nbsp;–&nbsp; </span>}
                     </span>
                   ))}
                   <span style={{ color: '#A0A0A0' }}>

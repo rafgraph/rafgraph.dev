@@ -11,7 +11,7 @@ export default function Li({ margin, children }) {
         margin,
       }}
     >
-      <span style={{ paddingRight: '10px' }}>&ndash;</span>
+      <span style={{ paddingRight: '10px' }}>–</span>
       {children}
     </li>
   );

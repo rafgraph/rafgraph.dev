@@ -26,7 +26,9 @@ export default function Footer() {
         active="hover"
         focusFromTab={{ backgroundColor: 'rgba(0, 168, 0, .4)' }}
         touchActiveTapOnly
-      >close</Interactive>
+      >
+        close
+      </Interactive>
     </footer>
   );
 }

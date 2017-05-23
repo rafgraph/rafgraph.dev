@@ -6,7 +6,8 @@ import Li from './Li';
 export default class Contact extends React.Component {
   static updateDocTitle() {
     document.title = 'Contact Rafael Pedicini';
-    document.querySelector('meta[name=description]').content = 'Contact Rafael Pedicini';
+    document.querySelector('meta[name=description]').content =
+      'Contact Rafael Pedicini';
   }
 
   state = {
@@ -52,20 +53,39 @@ export default class Contact extends React.Component {
               <ul>
                 <Li>San Francisco, CA</Li>
                 <Li>(857) 498 - 0011</Li>
-                <Li><InteractiveLink href="mailto:rafael@rafrex.com" newWindow={false}>rafael@rafrex.com</InteractiveLink></Li>
                 <Li>
-                  <InteractiveLink href="https://github.com/rafrex">GitHub</InteractiveLink>
-                  {' '} - {' '}
-                  <InteractiveLink href="https://www.linkedin.com/in/rpedicini">LinkedIn</InteractiveLink>
-                  {' '} - {' '}
-                  <InteractiveLink href="https://twitter.com/rafgraph">Twitter</InteractiveLink>
+                  <InteractiveLink
+                    href="mailto:rafael@rafrex.com"
+                    newWindow={false}
+                  >
+                    rafael@rafrex.com
+                  </InteractiveLink>
                 </Li>
                 <Li>
-                  <InteractiveLink href="https://medium.com/@rafgraph">Medium</InteractiveLink>
+                  <InteractiveLink href="https://github.com/rafrex">
+                    GitHub
+                  </InteractiveLink>
                   {' '} - {' '}
-                  <InteractiveLink href="https://www.facebook.com/rpedicini">Facebook</InteractiveLink>
+                  <InteractiveLink href="https://www.linkedin.com/in/rpedicini">
+                    LinkedIn
+                  </InteractiveLink>
                   {' '} - {' '}
-                  <InteractiveLink href="https://www.instagram.com/rafgraph/">Instagram</InteractiveLink>
+                  <InteractiveLink href="https://twitter.com/rafgraph">
+                    Twitter
+                  </InteractiveLink>
+                </Li>
+                <Li>
+                  <InteractiveLink href="https://medium.com/@rafgraph">
+                    Medium
+                  </InteractiveLink>
+                  {' '} - {' '}
+                  <InteractiveLink href="https://www.facebook.com/rpedicini">
+                    Facebook
+                  </InteractiveLink>
+                  {' '} - {' '}
+                  <InteractiveLink href="https://www.instagram.com/rafgraph/">
+                    Instagram
+                  </InteractiveLink>
                 </Li>
               </ul>
             </div>

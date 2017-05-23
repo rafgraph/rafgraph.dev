@@ -3,7 +3,13 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import Interactive from 'react-interactive';
 
-export default function NavItem({ backgroundColor, focusBackgroundColor, to, onClick, children }) {
+export default function NavItem({
+  backgroundColor,
+  focusBackgroundColor,
+  to,
+  onClick,
+  children,
+}) {
   return (
     <Interactive
       as={Link}
@@ -20,7 +26,9 @@ export default function NavItem({ backgroundColor, focusBackgroundColor, to, onC
       active="hover"
       focusFromTab={{ backgroundColor: focusBackgroundColor }}
       touchActiveTapOnly
-    >{children}</Interactive>
+    >
+      {children}
+    </Interactive>
   );
 }
 

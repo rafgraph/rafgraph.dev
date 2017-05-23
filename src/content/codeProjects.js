@@ -23,7 +23,6 @@ export const projectList = [
   'grams',
 ];
 
-
 export const myGithub = {
   project: [
     {
@@ -91,7 +90,15 @@ export const detectTouch = {
       link: 'https://www.npmjs.com/package/detect-touch',
     },
   ],
-  notes: <span>js, mobile, predecessor to <InteractiveLink href="https://github.com/rafrex/detect-it">detect-it</InteractiveLink></span>,
+  notes: (
+    <span>
+      js, mobile, predecessor to
+      {' '}
+      <InteractiveLink href="https://github.com/rafrex/detect-it">
+        detect-it
+      </InteractiveLink>
+    </span>
+  ),
 };
 
 export const fourCornerLayout = {
@@ -166,7 +173,15 @@ export const reactGithubPages = {
       link: 'https://github.com/rafrex/react-github-pages',
     },
   ],
-  notes: <span>js, react, predecessor to <InteractiveLink href="https://github.com/rafrex/spa-github-pages">spa-github-pages</InteractiveLink></span>,
+  notes: (
+    <span>
+      js, react, predecessor to
+      {' '}
+      <InteractiveLink href="https://github.com/rafrex/spa-github-pages">
+        spa-github-pages
+      </InteractiveLink>
+    </span>
+  ),
 };
 
 export const svgArrows = {
