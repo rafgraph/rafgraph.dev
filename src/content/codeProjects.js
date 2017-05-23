@@ -10,6 +10,7 @@ export const projectList = [
   'reactRouterHashLink',
   'reactMarkdownTree',
   'reactMarkdownTreeConfigDefault',
+  'reactFastMount',
   'fscreen',
   'currentInput',
   'theListener',
@@ -320,6 +321,24 @@ export const reactMarkdownTreeConfigDefault = {
     },
   ],
   notes: 'react markdown default style',
+};
+
+export const reactFastMount = {
+  project: [
+    {
+      title: 'React Fast Mount',
+      link: 'http://react-fast-mount.rafrex.com',
+    },
+    {
+      title: 'github',
+      link: 'https://github.com/rafrex/react-fast-mount',
+    },
+    {
+      title: 'npm',
+      link: 'https://www.npmjs.com/package/react-fast-mount',
+    },
+  ],
+  notes: 'fast mount slow rendering components',
 };
 
 export const example = {
