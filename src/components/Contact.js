@@ -10,20 +10,11 @@ export default class Contact extends React.Component {
       'Contact Rafael Pedicini';
   }
 
-  state = {
-    showContent: false,
-  };
-
   componentDidMount() {
-    // see note in Code component
-    window.setTimeout(() => {
-      this.setState({ showContent: true });
-    }, 16);
     Contact.updateDocTitle();
   }
 
   render() {
-    if (this.state.showContent === false) return null;
     return (
       <div style={{ height: '100%', backgroundColor: 'inherit' }}>
         <div
