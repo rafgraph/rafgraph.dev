@@ -8,6 +8,8 @@ export const projectList = [
   'fractal',
   'detectIt',
   'reactRouterHashLink',
+  'simplemark',
+  'reactSimplemark',
   'reactMarkdownTree',
   'reactMarkdownTreeConfigDefault',
   'reactFastMount',
@@ -339,6 +341,41 @@ export const reactFastMount = {
     },
   ],
   notes: 'fast mount slow rendering components',
+};
+
+export const simplemark = {
+  project: [
+    {
+      title: 'Simplemark',
+      link: 'http://simplemark.rafrex.com',
+    },
+    {
+      title: 'github',
+      link: 'https://github.com/rafrex/simplemark',
+    },
+    {
+      title: 'npm',
+      link: 'https://www.npmjs.com/package/simplemark',
+    },
+  ],
+  notes: 'a smaller version of markdown',
+};
+
+export const reactSimplemark = {
+  project: [
+    {
+      title: 'React Simplemark',
+    },
+    {
+      title: 'github',
+      link: 'https://github.com/rafrex/react-simplemark',
+    },
+    {
+      title: 'npm',
+      link: 'https://www.npmjs.com/package/react-simplemark',
+    },
+  ],
+  notes: 'react renderer for simplemark',
 };
 
 export const example = {
