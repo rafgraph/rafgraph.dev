@@ -1,5 +1,6 @@
 {
   "name": "rafrex.github.io",
+  "private": true,
   "description": "my place on the internet",
   "scripts": {
     "start": "webpack-dev-server --devtool eval-source-map --host 0.0.0.0 --public 10.0.1.4:8080 --history-api-fallback --open",
