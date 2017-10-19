@@ -7,13 +7,15 @@ export default function NavItem({
   backgroundColor,
   focusBackgroundColor,
   to,
+  href,
   onClick,
   children,
 }) {
   return (
     <Interactive
-      as={Link}
+      as={to ? Link : 'a'}
       to={to}
+      href={href}
       onClick={onClick}
       style={{
         display: 'flex',
@@ -35,7 +37,8 @@ export default function NavItem({
 NavItem.propTypes = {
   backgroundColor: PropTypes.string.isRequired,
   focusBackgroundColor: PropTypes.string.isRequired,
-  to: PropTypes.string.isRequired,
+  to: PropTypes.string,
+  href: PropTypes.string,
   onClick: PropTypes.func,
   children: PropTypes.node.isRequired,
 };
