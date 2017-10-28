@@ -28,6 +28,8 @@ export default function NavItem({
       active="hover"
       focusFromTab={{ backgroundColor: focusBackgroundColor }}
       touchActiveTapOnly
+      target={href && '_blank'}
+      rel={href && 'noopener noreferrer'}
     >
       {children}
     </Interactive>
@@ -45,4 +47,6 @@ NavItem.propTypes = {
 
 NavItem.defaultProps = {
   onClick: null,
+  to: null,
+  href: null,
 };

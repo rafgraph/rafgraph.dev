@@ -26,7 +26,7 @@ export default class Home extends React.Component {
         </div>
         <div style={{ height: '33%' }}>
           <NavItem
-            href="http://rafael.photo"
+            href="https://rafael.photo"
             backgroundColor="#D0D0D0"
             focusBackgroundColor="rgba(0, 168, 0, 0.3)"
           >
