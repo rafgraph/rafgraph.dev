@@ -5,6 +5,7 @@ export const projectList = [
   'myGithub',
   'reactInteractive',
   'spaGithubPages',
+  'rafaelPhoto',
   'fractal',
   'detectIt',
   'reactRouterHashLink',
@@ -376,6 +377,16 @@ export const reactSimplemark = {
     },
   ],
   notes: 'react renderer for simplemark',
+};
+
+export const rafaelPhoto = {
+  project: [
+    {
+      title: 'My Photo Gallery',
+      link: 'https://rafael.photo',
+    },
+  ],
+  notes: 'react, apollo, graphql, node, device responsive app',
 };
 
 export const example = {
