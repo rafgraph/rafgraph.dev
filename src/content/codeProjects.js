@@ -96,8 +96,7 @@ export const detectTouch = {
   ],
   notes: (
     <span>
-      js, mobile, predecessor to
-      {' '}
+      js, mobile, predecessor to{' '}
       <InteractiveLink href="https://github.com/rafrex/detect-it">
         detect-it
       </InteractiveLink>
@@ -179,8 +178,7 @@ export const reactGithubPages = {
   ],
   notes: (
     <span>
-      js, react, predecessor to
-      {' '}
+      js, react, predecessor to{' '}
       <InteractiveLink href="https://github.com/rafrex/spa-github-pages">
         spa-github-pages
       </InteractiveLink>
@@ -192,7 +190,8 @@ export const svgArrows = {
   project: [
     {
       title: 'Svg React Component',
-      link: 'https://medium.com/@rafrex/svg-react-stateless-functional-component-declarative-example-1d103d79011c',
+      link:
+        'https://medium.com/@rafrex/svg-react-stateless-functional-component-declarative-example-1d103d79011c',
     },
     {
       title: 'gist',

@@ -55,12 +55,12 @@ export default class Contact extends React.Component {
                 <Li>
                   <InteractiveLink href="https://github.com/rafrex">
                     GitHub
-                  </InteractiveLink>
-                  {' '} - {' '}
+                  </InteractiveLink>{' '}
+                   - {' '}
                   <InteractiveLink href="https://www.linkedin.com/in/rpedicini">
                     LinkedIn
-                  </InteractiveLink>
-                  {' '} - {' '}
+                  </InteractiveLink>{' '}
+                   - {' '}
                   <InteractiveLink href="https://twitter.com/rafgraph">
                     Twitter
                   </InteractiveLink>
@@ -68,12 +68,12 @@ export default class Contact extends React.Component {
                 <Li>
                   <InteractiveLink href="https://medium.com/@rafgraph">
                     Medium
-                  </InteractiveLink>
-                  {' '} - {' '}
+                  </InteractiveLink>{' '}
+                   - {' '}
                   <InteractiveLink href="https://www.facebook.com/rpedicini">
                     Facebook
-                  </InteractiveLink>
-                  {' '} - {' '}
+                  </InteractiveLink>{' '}
+                   - {' '}
                   <InteractiveLink href="https://www.instagram.com/rafgraph/">
                     Instagram
                   </InteractiveLink>

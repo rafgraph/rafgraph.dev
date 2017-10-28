@@ -30,7 +30,6 @@ class Code extends React.Component {
           }}
         >
           <div style={{ maxWidth: '600px', margin: '5vh 5vw 15vh 5vw' }}>
-
             <h1 style={{ fontSize: '32px' }}>Code</h1>
 
             <ul className="code-list">
@@ -38,21 +37,23 @@ class Code extends React.Component {
                 <Li margin="15px 0" key={proj}>
                   {codeProjects[proj].project.map((item, idx2, array) => (
                     <span key={idx2}>
-                      {item.link
-                        ? <InteractiveLink href={item.link}>
-                            {item.title}
-                          </InteractiveLink>
-                        : item.title}
+                      {item.link ? (
+                        <InteractiveLink href={item.link}>
+                          {item.title}
+                        </InteractiveLink>
+                      ) : (
+                        item.title
+                      )}
                       {idx2 + 1 < array.length && <span> &nbsp;–&nbsp; </span>}
                     </span>
                   ))}
                   <span style={{ color: '#A0A0A0' }}>
-                    {' '}&nbsp;...&nbsp; {codeProjects[proj].notes}
+                    {' '}
+                    &nbsp;...&nbsp; {codeProjects[proj].notes}
                   </span>
                 </Li>
               ))}
             </ul>
-
           </div>
         </div>
         <Footer />
