@@ -3,7 +3,7 @@
   "private": true,
   "description": "my place on the internet",
   "scripts": {
-    "start": "webpack-dev-server --devtool eval-source-map --host 0.0.0.0 --public 10.0.1.4:8080 --history-api-fallback --open",
+    "start": "webpack-dev-server --devtool eval-source-map --host 0.0.0.0 --public 10.0.1.11:8080 --history-api-fallback --open",
     "build": "rm -rf node_modules && yarn install && webpack -p"
   },
   "repository": {
@@ -36,7 +36,7 @@
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.6.1",
     "prettier": "^1.10.2",
-    "webpack": "^3.8.1",
-    "webpack-dev-server": "^2.9.3"
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
   }
 }
