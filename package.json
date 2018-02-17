@@ -15,8 +15,8 @@
   "homepage": "http://rafrex.github.io",
   "dependencies": {
     "prop-types": "^15.6.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "react-fast-mount": "^0.2.1",
     "react-interactive": "^0.8.1",
     "react-router-dom": "^4.2.2"
