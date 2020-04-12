@@ -3,7 +3,7 @@
   "private": true,
   "description": "my place on the internet",
   "scripts": {
-    "start": "webpack-dev-server --devtool eval-source-map --host 0.0.0.0 --public 10.0.1.11:8080 --history-api-fallback --open",
+    "start": "webpack-dev-server --devtool eval-source-map --host 0.0.0.0 --public 10.0.1.9:8080 --history-api-fallback --open",
     "build": "rm -rf node_modules && yarn install && webpack -p"
   },
   "repository": {

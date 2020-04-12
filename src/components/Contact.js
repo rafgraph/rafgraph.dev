@@ -42,14 +42,13 @@ export default class Contact extends React.Component {
             <div style={{ margin: '7px 0 0 2px' }}>
               <h1 style={{ fontSize: '24px' }}>Rafael Pedicini</h1>
               <ul>
-                <Li>San Francisco, CA</Li>
-                <Li>(857) 498 - 0011</Li>
+                <Li>New York, NY</Li>
                 <Li>
                   <InteractiveLink
-                    href="mailto:rafael@rafrex.com"
+                    href="mailto:rafael@rafgraph.dev"
                     newWindow={false}
                   >
-                    rafael@rafrex.com
+                    rafael@rafgraph.dev
                   </InteractiveLink>
                 </Li>
                 <Li>
@@ -59,19 +58,6 @@ export default class Contact extends React.Component {
                   -{' '}
                   <InteractiveLink href="https://www.linkedin.com/in/rpedicini">
                     LinkedIn
-                  </InteractiveLink>{' '}
-                  -{' '}
-                  <InteractiveLink href="https://twitter.com/rafgraph">
-                    Twitter
-                  </InteractiveLink>
-                </Li>
-                <Li>
-                  <InteractiveLink href="https://medium.com/@rafgraph">
-                    Medium
-                  </InteractiveLink>{' '}
-                  -{' '}
-                  <InteractiveLink href="https://www.facebook.com/rpedicini">
-                    Facebook
                   </InteractiveLink>{' '}
                   -{' '}
                   <InteractiveLink href="https://www.instagram.com/rafgraph/">
