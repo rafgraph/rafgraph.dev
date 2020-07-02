@@ -52,11 +52,11 @@ export default class Contact extends React.Component {
                   </InteractiveLink>
                 </Li>
                 <Li>
-                  <InteractiveLink href="https://github.com/rafrex">
+                  <InteractiveLink href="https://github.com/rafgraph">
                     GitHub
                   </InteractiveLink>{' '}
                   -{' '}
-                  <InteractiveLink href="https://www.linkedin.com/in/rpedicini">
+                  <InteractiveLink href="https://www.linkedin.com/in/rafgraph">
                     LinkedIn
                   </InteractiveLink>{' '}
                   -{' '}
