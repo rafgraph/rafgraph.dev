@@ -24,7 +24,6 @@ export const projectList = [
   'reactGithubPages',
   'detectTouch',
   'favicon',
-  'grams',
 ];
 
 export const myGithub = {
@@ -51,7 +50,7 @@ export const fractal = {
   project: [
     {
       title: 'Fractal Generator',
-      link: 'http://fractal.rafrex.com',
+      link: 'https://fractal.rafgraph.dev',
     },
     {
       title: 'github',
@@ -65,7 +64,7 @@ export const reactRouterHashLink = {
   project: [
     {
       title: 'React Router Hash Link',
-      link: 'http://react-router-hash-link.rafrex.com',
+      link: 'https://react-router-hash-link.rafgraph.dev',
     },
     {
       title: 'github',
@@ -83,7 +82,7 @@ export const detectTouch = {
   project: [
     {
       title: 'Detect Touch',
-      link: 'http://detect-touch.rafrex.com',
+      link: 'https://detect-touch.rafgraph.dev',
     },
     {
       title: 'github',
@@ -108,7 +107,7 @@ export const fourCornerLayout = {
   project: [
     {
       title: 'Four Corner Layout',
-      link: 'http://four-corner-layout.rafrex.com',
+      link: 'https://four-corner-layout.rafgraph.dev',
     },
     {
       title: 'github',
@@ -125,35 +124,29 @@ export const favicon = {
     },
     {
       title: 'green grid',
-      link: 'http://favicon.rafrex.com/green-grid-144-168-192',
+      link: 'https://favicon.rafgraph.dev/green-grid-144-168-192',
     },
     {
       title: 'gray grid',
-      link: 'http://favicon.rafrex.com/gray-grid-104-128-160',
+      link: 'https://favicon.rafgraph.dev/gray-grid-104-128-160',
     },
     {
       title: 'green light',
-      link: 'http://favicon.rafrex.com/green-light-168',
+      link: 'https://favicon.rafgraph.dev/green-light-168',
     },
   ],
   notes: 'gh-pages favicon server',
-};
-
-export const grams = {
-  project: [
-    {
-      title: 'Grams',
-      link: 'https://github.com/rafgraph/grams',
-    },
-  ],
-  notes: 'rails mvc',
 };
 
 export const mySite = {
   project: [
     {
       title: 'My Website',
-      link: 'http://www.rafaelpedicini.com',
+      link: 'https://rafaelpedicini.com',
+    },
+    {
+      title: 'github',
+      link: 'https://github.com/rafgraph/rafgraph-website',
     },
   ],
   notes: 'design, js, react, responsive, mobile',
@@ -191,7 +184,7 @@ export const svgArrows = {
     {
       title: 'Svg React Component',
       link:
-        'https://medium.com/@rafrex/svg-react-stateless-functional-component-declarative-example-1d103d79011c',
+        'https://medium.com/@rafgraph/svg-react-stateless-functional-component-declarative-example-1d103d79011c',
     },
     {
       title: 'gist',
@@ -205,7 +198,7 @@ export const detectIt = {
   project: [
     {
       title: 'Detect It',
-      link: 'http://detect-it.rafrex.com',
+      link: 'https://detect-it.rafgraph.dev',
     },
     {
       title: 'github',
@@ -240,7 +233,7 @@ export const currentInput = {
   project: [
     {
       title: 'Current Input',
-      link: 'http://current-input.rafrex.com',
+      link: 'https://current-input.rafgraph.dev',
     },
     {
       title: 'github',
@@ -258,7 +251,7 @@ export const reactInteractive = {
   project: [
     {
       title: 'React Interactive',
-      link: 'http://react-interactive.rafrex.com',
+      link: 'https://react-interactive.rafgraph.dev',
     },
     {
       title: 'github',
@@ -276,7 +269,7 @@ export const fscreen = {
   project: [
     {
       title: 'Fscreen',
-      link: 'http://fscreen.rafrex.com',
+      link: 'https://fscreen.rafgraph.dev',
     },
     {
       title: 'github',
@@ -294,7 +287,7 @@ export const reactMarkdownTree = {
   project: [
     {
       title: 'React Markdown Tree',
-      link: 'http://react-markdown-tree.rafrex.com',
+      link: 'https://react-markdown-tree.rafgraph.dev',
     },
     {
       title: 'github',
@@ -329,7 +322,7 @@ export const reactFastMount = {
   project: [
     {
       title: 'React Fast Mount',
-      link: 'http://react-fast-mount.rafrex.com',
+      link: 'https://react-fast-mount.rafgraph.dev',
     },
     {
       title: 'github',
@@ -347,7 +340,7 @@ export const simplemark = {
   project: [
     {
       title: 'Simplemark',
-      link: 'http://simplemark.rafrex.com',
+      link: 'https://simplemark.rafgraph.dev',
     },
     {
       title: 'github',
