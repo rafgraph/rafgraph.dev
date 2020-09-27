@@ -14,6 +14,7 @@ export const projectList = [
   'reactSimplemark',
   'reactMarkdownTree',
   'reactMarkdownTreeConfigDefault',
+  'browserlistsCssGrid',
   'reactFastMount',
   'currentInput',
   'theListener',
@@ -379,6 +380,23 @@ export const rafaelPhoto = {
     },
   ],
   notes: 'react, apollo, graphql, node, device responsive app',
+};
+
+export const browserlistsCssGrid = {
+  project: [
+    {
+      title: 'Browserslist Config for CSS Grid',
+    },
+    {
+      title: 'github',
+      link: 'https://github.com/rafgraph/browserslist-config-css-grid',
+    },
+    {
+      title: 'npm',
+      link: 'https://www.npmjs.com/package/browserslist-config-css-grid',
+    },
+  ],
+  notes: 'css grid browserslist',
 };
 
 export const example = {
