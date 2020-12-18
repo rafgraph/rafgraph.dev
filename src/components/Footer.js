@@ -21,10 +21,15 @@ export default function Footer() {
           width: '100%',
           display: 'block',
           padding: '2px 0 3px 0',
+          boxSizing: 'border-box',
         }}
         hover={{ color: 'rgb(0, 168, 0)' }}
         active="hover"
-        focusFromTab={{ backgroundColor: 'rgba(0, 168, 0, .4)' }}
+        focusFromTab={{
+          backgroundColor: 'rgba(0, 168, 0, .1)',
+          border: '2px solid rgb(0, 168, 0)',
+          padding: '2px 0 1px 0',
+        }}
         touchActiveTapOnly
       >
         close

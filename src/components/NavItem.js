@@ -18,6 +18,7 @@ export default function NavItem({
       href={href}
       onClick={onClick}
       style={{
+        boxSizing: 'border-box',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
@@ -26,7 +27,10 @@ export default function NavItem({
       }}
       hover={{ color: 'rgb(0, 168, 0)' }}
       active="hover"
-      focusFromTab={{ backgroundColor: focusBackgroundColor }}
+      focusFromTab={{
+        backgroundColor: focusBackgroundColor,
+        border: '4px solid rgb(0, 168, 0)',
+      }}
       touchActiveTapOnly
       target={href && '_blank'}
       rel={href && 'noopener noreferrer'}

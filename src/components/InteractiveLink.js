@@ -7,16 +7,19 @@ export default function InteractiveLink({ href, children, newWindow }) {
     <Interactive
       as="a"
       href={href}
-      style={{ borderBottom: '1px dotted rgb(0, 168, 0)' }}
+      style={{
+        borderBottom: '1px dotted rgb(0, 168, 0)',
+        boxSizing: 'border-box',
+      }}
       hover={{ borderBottom: '1px solid rgb(0, 168, 0)' }}
       active="hover"
       focusFromTab={{
         color: 'black',
-        backgroundColor: 'rgba(0, 168, 0, 0.3)',
+        backgroundColor: 'rgba(0, 168, 0, 0.1)',
         padding: '2px 4px 1px',
-        margin: '-2px -4px -1px',
+        margin: '-4px -6px -3px',
         borderRadius: '2px',
-        borderBottom: '1px solid transparent',
+        border: '2px solid rgb(0, 168, 0)',
       }}
       touchActiveTapOnly
       target={(newWindow || null) && '_blank'}
