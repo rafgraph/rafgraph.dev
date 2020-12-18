@@ -10,7 +10,6 @@ export default function InteractiveLink({ href, children, newWindow }) {
       style={{ borderBottom: '1px dotted rgb(0, 168, 0)' }}
       hover={{ borderBottom: '1px solid rgb(0, 168, 0)' }}
       active="hover"
-      touchActive={{ borderBottom: '1px dashed rgb(0, 168, 0)' }}
       focusFromTab={{
         color: 'black',
         backgroundColor: 'rgba(0, 168, 0, 0.3)',
