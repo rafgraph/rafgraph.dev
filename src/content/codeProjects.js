@@ -3,11 +3,14 @@ import InteractiveLink from '../components/InteractiveLink';
 
 export const projectList = [
   'myGithub',
-  'reactInteractive',
+  'rollpkg',
+  'rollpkgExamplePackage',
   'detectIt',
+  'eventFrom',
   'reactRouterHashLink',
   'fractal',
   'spaGithubPages',
+  'reactInteractive',
   'rafaelPhoto',
   'fscreen',
   'simplemark',
@@ -34,7 +37,7 @@ export const myGithub = {
       link: 'https://github.com/rafgraph',
     },
   ],
-  notes: 'my github, js, react, responsive, mobile',
+  notes: 'my github, ts, js, react, responsive, mobile',
 };
 
 export const spaGithubPages = {
@@ -44,7 +47,7 @@ export const spaGithubPages = {
       link: 'https://github.com/rafgraph/spa-github-pages',
     },
   ],
-  notes: 'js, utility to host spas with gh-pages',
+  notes: 'ts, utility to host spas with gh-pages',
 };
 
 export const fractal = {
@@ -210,7 +213,25 @@ export const detectIt = {
       link: 'https://www.npmjs.com/package/detect-it',
     },
   ],
-  notes: 'js, detect device type (mouse, touch, hybrid)',
+  notes: 'ts, detect device type (mouse, touch, hybrid)',
+};
+
+export const eventFrom = {
+  project: [
+    {
+      title: 'Event From',
+      link: 'https://event-from.rafgraph.dev',
+    },
+    {
+      title: 'github',
+      link: 'https://github.com/rafgraph/event-from',
+    },
+    {
+      title: 'npm',
+      link: 'https://www.npmjs.com/package/event-from',
+    },
+  ],
+  notes: 'ts, event from mouse, touch or key input',
 };
 
 export const theListener = {
@@ -398,6 +419,39 @@ export const browserlistsCssGrid = {
   ],
   notes: 'css grid browserslist',
 };
+
+export const rollpkg = {
+  project: [
+    {
+      title: 'Rollpkg',
+      link: 'https://github.com/rafgraph/rollpkg',
+    },
+    {
+      title: 'npm',
+      link: 'https://www.npmjs.com/package/rollpkg',
+    },
+  ],
+  notes: 'no config build tool to create packages with rollup and ts',
+};
+
+export const rollpkgExamplePackage = {
+  project: [
+    {
+      title: 'Rollpkg Example Package',
+      link: 'https://rollpkg.rafgraph.dev',
+    },
+    {
+      title: 'github',
+      link: 'https://github.com/rafgraph/rollpkg-example-package',
+    },
+    {
+      title: 'npm',
+      link: 'https://www.npmjs.com/package/rollpkg-example-package',
+    },
+  ],
+  notes: 'example package for rollpkg',
+};
+
 
 export const example = {
   project: [
