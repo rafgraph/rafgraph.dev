@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Interactive from 'react-interactive';
 
-export default function InteractiveLink({ href, children, newWindow }) {
+export default function InteractiveLink({ href, children }) {
   return (
     <Interactive
       as="a"
@@ -22,8 +22,6 @@ export default function InteractiveLink({ href, children, newWindow }) {
         border: '2px solid rgb(0, 168, 0)',
       }}
       touchActiveTapOnly
-      target={(newWindow || null) && '_blank'}
-      rel={(newWindow || null) && 'noopener noreferrer'}
     >
       {children}
     </Interactive>
@@ -33,9 +31,4 @@ export default function InteractiveLink({ href, children, newWindow }) {
 InteractiveLink.propTypes = {
   href: PropTypes.string.isRequired,
   children: PropTypes.string.isRequired,
-  newWindow: PropTypes.bool,
-};
-
-InteractiveLink.defaultProps = {
-  newWindow: true,
 };

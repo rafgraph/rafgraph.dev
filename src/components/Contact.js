@@ -44,10 +44,7 @@ export default class Contact extends React.Component {
               <ul>
                 <Li>New York, NY</Li>
                 <Li>
-                  <InteractiveLink
-                    href="mailto:rafael@rafgraph.dev"
-                    newWindow={false}
-                  >
+                  <InteractiveLink href="mailto:rafael@rafgraph.dev">
                     rafael@rafgraph.dev
                   </InteractiveLink>
                 </Li>

@@ -32,8 +32,8 @@ export default function NavItem({
         border: '4px solid rgb(0, 168, 0)',
       }}
       touchActiveTapOnly
-      target={href && '_blank'}
-      rel={href && 'noopener noreferrer'}
+      // target={href && '_blank'}
+      // rel={href && 'noopener noreferrer'}
     >
       {children}
     </Interactive>
